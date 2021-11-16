@@ -1,0 +1,22 @@
+#wait {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: none;
+  background: rgba(0, 0, 0, 0.5) url("/images/loader.gif") no-repeat 50% 50%;
+}
+
+textarea.form-control {
+  min-height: 6rem;
+}
+
+div.ck-editor__editable {
+  min-height: 200px;
+}
+
+.navbar-nav.header-right {
+  margin-left: auto;
+}

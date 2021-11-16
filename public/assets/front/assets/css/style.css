@@ -1,0 +1,986 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&family=Ubuntu:wght@400;700&display=swap');
+
+body,p,input,button,label,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+    }
+ span {
+    font-family: 'Roboto';
+        }
+    
+.progress-widget .back-section .fa{
+    font-size: 20px;
+    margin-top: 12px;
+}
+.be-fixed-sidebar .be-navbar-header img{
+    margin: auto !important;
+}
+.mdi-settings:before {
+    content: '\f1c6';
+    display: none;
+}
+
+.be-wrapper .navbar-nav span{
+    margin: 28px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.be-left-sidebar .sidebar-elements{
+    margin-top: 81px;
+}
+
+.main-page .button-section ul li a {
+    background-color: white;
+    padding: 9px 26px;
+    color: green;
+    font-size: 17px;
+   
+
+}
+.main-page .button-section>li.show>a{
+    color: #4285f4;
+    background-color:black;
+    padding: 9px 31px;
+    color: white;
+    font-size: 17px;
+ 
+}
+
+.main-page .button-section .show {
+    background-color: black;
+    padding: 9px 31px;
+    color: #8EC39B;
+
+    font-size: 17px;
+  
+
+}
+.main-page .button-section ul li{
+ 
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.main-page .button-section span::before{
+    content: " ";
+    width: 60px;
+    height: 2px;
+    margin-left: 134px !important;
+    background-color: red;
+    display: block;
+    transform: translateY(-14px);
+}
+
+
+@media screen and (max-width:810px) {
+    .main-page .button-section ul li a {
+        background-color: white;
+        padding: 9px 18px;
+        color: black;
+        font-size: 15px;
+   
+    }
+}
+@media screen and (max-width:810px) {
+    .main-page .button-section span::before{
+        content: " ";
+        width: 12px;
+        height: 3px;
+        margin-left: 104px !important;
+        background-color: white;
+        display: block;
+        transform: translateY(-14px);
+    }
+    
+}
+@media screen and (max-width:810px) {
+    .main-page .button-section{
+        transform: translate(-23px ,22px);
+    }
+    
+}
+@media screen and (max-width:356px) {
+    .main-page .button-section{
+        transform: translate(-43px ,1px);
+    }
+    
+}
+@media screen and (max-width:337px) {
+    .main-page .button-section{
+        transform: translate(-53px ,1px);
+    }
+    
+}
+@media screen and (max-width:326px) {
+    @media screen and (max-width:810px) {
+        .main-page .button-section span::before{
+            content: " ";
+            width: 0px;
+            height: 0px;
+            margin-left: 97px !important;
+            background-color: white;
+            display: block;
+            transform: translateY(-14px);
+        }
+        
+    }
+}
+@media screen and (max-width:810px) {
+    .main-page .button-section .show {
+        background-color: black;
+        padding: 9px 17px;
+        color: black;
+        color: white;
+        font-size: 17px;
+
+    
+    }
+}
+
+@media screen and (max-width: 301px){
+.main-page .button-section {
+    transform: translate(-62px ,1px);
+}
+}
+
+/* food-section */
+
+.food-section .full{
+    background-color: #E8F2EB;
+  
+}
+.food-section .full .title h3{
+  font-weight: bold;
+  font-size: 31px;
+  letter-spacing: 1px;
+}
+.food-section .card-header h4{
+  font-weight: bold;
+  
+}
+/* .food-section .full .box-section {
+    background-color: white;
+    padding: ;
+} */
+.food-section .full .content-2 .fa{
+    font-size: 13px;
+}
+.food-section .card .card-body .fa{
+    font-size: 5px;
+    transform: translate(1px ,-3px);
+}
+.food-section .card .card-body span{
+   font-size: 13px;
+   font-weight: bold;
+   font-family: 'Raleway', sans-serif;
+}
+.food-section .card .card-body .line{
+  line-height: 23px;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 11px;
+}
+
+.card-header {
+    padding: 14px.538rem;
+    margin-bottom: 0;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+   
+}
+/* .food-section .card .card-body .like .fa,span{
+     color: #B0D5B9;
+     font-size: 33px;
+  } */
+
+  .comments-one span{
+      margin: 4px;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .additional-section h3{
+      font-weight: 500;
+  }
+  .additional-section span{
+      font-weight: bold;
+      font-size: 13px;
+      font-family: 'Raleway', sans-serif;
+  }
+  .additional-section .selection{
+     line-height: 14px;
+  }
+  @media screen and (max-width:991px) {
+    .additional-section{
+        margin-top: 12px;
+    }
+}
+
+
+
+  /* checkbox */
+
+
+  input[type='checkbox'] {
+	margin-top: -30px;
+}
+
+input[type='checkbox'] {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+	width: 21px;
+    height: 21px;
+	margin: 0;
+	margin-right: 1px;
+	display: block;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border: none !important;
+}
+
+input[type='checkbox']:after {
+	content: "";
+	vertical-align: middle;
+	text-align: center;
+	line-height: 13px;
+	position: absolute;
+	cursor: pointer;
+	height: 21px;
+	width: 21px;
+	left: 0;
+	top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 2px solid #8EC39B;
+    border-radius: 0px !important;
+    background-color: #fefefe;
+    outline: none;
+}
+
+
+input[type='checkbox']:checked:after {
+    background: #8ec39b;
+    content: "✓";
+    color: #fff;
+    border: none !important;
+    border-radius: 2px !important;
+}
+/* .chk {
+    background-color: #990000;  
+ 
+ } */
+
+/* ===================  Breakfast   ============= */
+
+.double h3{
+    font-weight: bold;
+}
+.double .check-box h5{
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(37, 133, 37);
+}
+
+
+
+.be-top-header .be-right-navbar {
+ 
+    background-color: #B0D5B9 !important;
+    z-index: 1030;
+}
+
+
+
+.be-wrapper .navbar-nav span {
+    margin: 13px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.be-wrapper .navbar-nav .line {
+    border-right: 2px solid white; padding: 7px;
+}
+
+@media (max-width: 991.98px){
+.be-top-header .navbar-nav>li>a.nav-link {
+    padding: 0 0px;
+}
+}
+@media screen and (max-width:391px) {
+    .be-wrapper .navbar-nav span {
+        margin: 0;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    
+}
+@media screen and (max-width:371px) {
+    .be-wrapper .navbar-nav span {
+        margin: 3px;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+}
+@media screen and (max-width:343px) {
+    .be-wrapper .navbar-nav span {
+        margin: 0px;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    .be-right-navbar .navbar-nav input[type='checkbox']{
+    display: none;
+    }
+}
+.main-page .checkbox input[type='checkbox']{
+    display: none;
+}
+
+
+@media screen and (max-width:767px) {
+    .main-page .checkbox input[type='checkbox']{
+        display: block;
+    }
+    
+}
+
+
+
+/* logo */
+.be-fixed-sidebar .be-navbar-header img {
+    margin: auto !important;
+    transform: translate(-4px, 68px);
+    width: 140px;
+}
+
+
+
+/* fingrr food checkbox */
+
+.finger-food input[type='checkbox']:after {
+	content: "";
+	vertical-align: middle;
+	text-align: center;
+	line-height: 13px;
+	position: absolute;
+	cursor: pointer;
+	height: 19px;
+	width: 19px;
+	left: 0;
+	top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 14px;
+    border: 2px solid black;
+    border-radius: 0px !important;
+    /* border-radius: 50%; */
+    background-color: #b0d5b9;
+}
+
+
+ .finger-food input[type='checkbox']:checked:after {
+	background: black;
+	content: '\2714';
+	color: #fff;
+    border: none !important;
+    border-radius: none !important;
+} 
+/* .be-fixed-sidebar input[type='checkbox']:checked:after {
+	background: black;
+	content: '\2714';
+	color: #fff;
+} */
+
+
+
+/* ==================   dinner-cafe-section  ========================= */
+
+.dinner-cafe-section .full h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.dinner-cafe-section .full ul li{
+    transform: translate(-19px , 6px);
+    font-size: 16px;
+    
+}
+.dinner-cafe-section .full .img{
+   color: black;
+    
+}
+.dinner-cafe-section .full {
+   padding: 8px;
+   margin: auto;
+    
+}
+
+
+/* option3-section */
+
+.option3-section .full .head h4 {
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.option3-section .full .head{
+    padding: 10px;
+}
+.option3-section .full  span{
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 26px;
+   font-family: 'Raleway', sans-serif;
+}
+
+
+/* view-all-option */
+
+.view-all-option .btn{
+    width: 50%;
+ 
+}
+.view-my-selection  .btn{
+ 
+    font-size: 14px;
+}
+
+
+/* view all option */
+
+.dinner-cafe-section .all span{
+    font-size: 17px;
+    color: #7dbe8d;
+    font-weight: bold;
+    margin-left: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+.dinner-cafe-section .all{
+  padding: 9px;
+}
+.dinner .full span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0px !important;
+    font-family: 'Raleway', sans-serif;
+}
+.dinner .full .check-1{
+   margin-top: 9px;
+}
+
+.check-1 .form-check-input[type=checkbox] {
+    border-radius: .25em;
+    margin-right: 10px;
+}
+
+
+.option3-section .selected-mul h3{
+    font-weight: bold;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.option3-section .selected-mul p{
+   font-size: 14px;
+   font-weight: bold;
+   color: green;
+}
+
+.main-selction-4 .four{
+    float: right;
+}
+
+@media screen and (max-width:450px) {
+    .main-selction-4 .four{
+        float:none;
+
+    }
+    
+    
+}
+@media screen and (max-width:427px) {
+    .main-selction-4 .four{
+       margin-top: 13px;
+
+    }
+    
+    
+}
+
+
+
+.food-section .same-one{
+    /*margin-left: 13px;*/
+}
+
+
+@media screen and (max-width: 991px){
+    .food-section .option3-section{
+        margin-top: 15px;
+    }
+    }
+
+
+    /* ============   confirm-section   */
+ 
+    .confirm-section .para p{
+        font-size: 16px;
+    }
+
+    .confirm-section .full h4{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .confirm-section .full .main-box span{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+       
+    }
+    .confirm-section .timer .fa{
+    background-color: rgb(204, 198, 198);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+       
+    }
+    .confirm-section .timer .fa-plus{
+    background-color: rgb(150, 206, 150);
+   
+       
+    }
+    .confirm-section .review_ul ul li{
+   font-size: 13px;
+   font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        line-height: 22px;
+   
+       
+    }
+    .confirm-section .time p{
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+    
+   
+       
+    }
+    .confirm-section .time  .button button{
+ 
+   font-family: 'Raleway', sans-serif;
+      width: 140px;
+   
+       
+    }
+
+    @media screen and (max-width: 991px){
+        .confirm-section .time{
+            margin-top: 15px;
+        }
+        }
+    
+
+        /* delivery-section */
+
+        .delivery-section .full h4{
+           font-weight: bold;
+           font-family: 'Raleway', sans-serif;
+        }
+
+        .delivery-section input[type='text']{
+           width: 100%;
+           height: 10%;
+           border: 1px solid gray;
+
+         }
+
+
+.bg-light-gray {
+    background-color: #adadad !important;
+}
+
+.bg-full-black {
+    background-color: #000 !important;
+}
+
+        .container-calendar .delivery-button {
+
+            border: none;
+            height: 45px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 10px 0px 0px 0px;
+            margin-right: 0px;
+            padding: 9px 40px;
+        }
+
+.container-calendar .pickup-button {
+
+    border: none;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: -3px;
+    padding: 9px 40px;
+}
+
+.container-calendar #monthAndYear {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+        .delivery-section .stranges{
+            transform: translate(0px , 0px) !important;
+            border-top-right-radius: 6px ;
+        }
+        
+        .delivery-section .stranges h5{
+           font-weight: bold;
+           font-size: 17px;
+        }
+        
+        .stranges input[type='text']{
+
+            margin: auto;
+            width: 100%;
+            /* text-align: center; */
+        } 
+        
+        .delivery-section input[type='password']{
+            /* margin-top: 32px !important; */
+            /* margin: auto; */
+            /* width: 141px; */
+            margin: 4px;
+            height: 40px;
+            width: 100%;
+            /* text-align: center; */
+        } 
+
+        @media screen and (max-width: 991px){
+            .delivery-section .all-ok{
+                margin-top: 15px;
+            }
+            }
+
+
+
+            .main-page .button-section span::before {
+                content: " ";
+                width: 33px;
+                height: 2px;
+                margin-left: 124px !important;
+                background-color: white;
+                display: block;
+                position: absolute;
+                transform: translateY(-26px);
+            }
+
+
+
+            @media screen and (max-width: 991px){
+                .delivery-section .all-ok{
+                    margin-top: 15px;
+                }
+                }
+    
+    
+
+
+            .main-page .button-section ul li {
+    list-style: none !important;
+    text-decoration: none !important;
+    /* margin: 0px; */
+    padding-left: 53px;
+    /* margin-left: 4px; */
+
+    
+            }
+
+
+            @media screen and (max-width: 1266px){
+              
+            .main-page .button-section ul li {
+                list-style: none !important;
+                text-decoration: none !important;
+                /* margin: 0px; */
+                padding-left: 38px;
+                /* margin-left: 4px; */
+            
+                
+                        }
+            
+                }
+    
+
+
+                @media screen and (max-width: 1222px){
+              
+                    .main-page .button-section ul li {
+                        list-style: none !important;
+                        text-decoration: none !important;
+                        /* margin: 0px; */
+                        padding-left: 25px;
+                        /* margin-left: 4px; */
+                    
+                        
+                                }
+                    
+                        }
+                @media screen and (max-width: 1266px){
+              
+                    .main-page .button-section span::before {
+                        content: " ";
+                        width: 20px;
+                        height: 2px;
+                        margin-left: 124px !important;
+                        background-color: white;
+                        display: block;
+                        position: absolute;
+                        transform: translateY(-22px);
+                    }
+        
+        
+                    
+                        }
+                @media screen and (max-width: 1222px){
+              
+                    .main-page .button-section span::before {
+                        content: " ";
+                        width: 17px;
+                        height: 2px;
+                        margin-left: 124px !important;
+                        background-color: white;
+                        display: block;
+                        position: absolute;
+                        transform: translateY(-22px);
+                    }
+        
+        
+                    
+                        }
+  
+                        @media screen and (max-width: 1222px){
+              
+                            .main-page .button-section ul li {
+                                list-style: none !important;
+                                text-decoration: none !important;
+                                /* margin: 0px; */
+                                padding-left: 16px;
+                                /* margin-left: 4px; */
+                            
+                                
+                                        }
+                            
+                                }
+                     
+                                @media screen and (max-width: 1222px){
+              
+                                    .main-page .button-section span::before {
+                                        content: " ";
+                                        width: 12px;
+                                        height: 2px;
+                                        margin-left: 120px !important;
+                                        background-color: white;
+                                        display: block;
+                                        position: absolute;
+                                        transform: translateY(-22px);
+                                    }
+                        
+                        
+                                    
+                                        }
+                                        @media screen and (max-width: 1152px){
+              
+                                            .main-page .button-section ul li {
+                                                list-style: none !important;
+                                                text-decoration: none !important;
+                                                /* margin: 0px; */
+                                                padding-left: 8px;
+                                                /* margin-left: 4px; */
+                                            
+                                                
+                                                        }
+                                            
+                                     }
+                         @media screen and (max-width: 1222px){
+              
+                                    .main-page .button-section span::before {
+                                        content: " ";
+                                        width: 12px;
+                                        height: 2px;
+                                        margin-left: 120px !important;
+                                        background-color: white;
+                                        display: block;
+                                        position: absolute;
+                                        transform: translateY(-22px);
+                                    }
+                        
+                        
+                                    
+                                        }
+                                        @media screen and (max-width: 1152px){
+              
+                                            .main-page .button-section span::before {
+                                                content: " ";
+                                                width: 0px;
+                                                height: 0px;
+                                                margin-left: 120px !important;
+                                                background-color: white;
+                                                display: block;
+                                                position: absolute;
+                                                transform: translateY(-22px);
+                                            }
+                                
+                                
+                                            
+                                                }
+                                                @media screen and (max-width: 1134px){
+              
+                                                    .main-page .button-section ul li {
+                                                        list-style: none !important;
+                                                        text-decoration: none !important;
+                                                        /* margin: 0px; */
+                                                        padding-left: 0px;
+                                                        /* margin-left: 4px; */
+                                                    
+                                                        
+                                                                }
+                                                    
+                                             }
+                                                @media screen and (max-width: 1134px){
+              
+                                                    .main-page .button-section ul li a {
+                                                        background-color: white;
+                                                        padding: 9px 19px;
+                                                        color: green;
+                                                        font-size: 17px;
+                                                    }
+                                                    
+                                             }
+                                                @media screen and (max-width: 1134px){
+                                                    .main-page .button-section .show {
+                                                        background-color: black;
+                                                        padding: 9px 24px;
+                                                        color: black;
+                                                        color: white;
+                                                        font-size: 17px;
+                                                    }
+                                                    
+                                             }
+                                        @media screen and (max-width: 1070px){
+                                        .main-page .button-section .show {
+                                            background-color: black;
+                                            padding: 9px 9px;
+                                            color: black;
+                                            color: white;
+                                            font-size: 17px;
+                                        }
+                                        }
+                                        @media screen and (max-width: 1070px){
+                                            .main-page .button-section ul li a {
+                                                background-color: white;
+                                                padding:8px;
+                                                color: green;
+                                                font-size: 17px;
+                                            }
+                                        }
+                                        @media screen and (max-width: 958px){
+                                            .main-page .button-section{
+                                            display: none;
+                                            }
+                                        }
+
+                                        .be-left-sidebar .sidebar-elements>li>a {
+                                            display: block;
+                                            padding: 0 30px;
+                                            color: black;
+                                            font-size: 17px;
+                                            font-family: inherit;
+                                            font-weight: 500;
+                                            line-height: 56px;
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
+                                            font-weight: bold;
+                                            margin: auto;
+                                            white-space: nowrap;
+                                        }
+                                        .be-left-sidebar .sidebar-elements>li {
+                                            border: 2px solid gray;
+                                            list-style: none;
+                                            width: 169px;
+                                            /* padding: 4px; */
+                                            margin-bottom: 3px;
+                                            padding-top: 0px;
+                                            margin: auto;
+                                        }
+                                        .back-section .fa{
+                                            margin-left: 27px;
+                                        color: black;
+                                        transform: translate(3px, 1px);
+                                        font-size: 28px;
+                                        }
+.food-section .left-gray {
+
+    height: 100vh;
+}
+                                        .food-section .left-white{
+                                            transform: translate(35px, 7px);
+                                     height: 100vh;
+                                    
+                                        }
+
+                                        @media screen and (max-width: 991px){
+                                            .food-section .left-gray{
+                                                transform: translate(0px, 0px);
+                                                /* height: 700px; */
+                                                
+                                                    }
+                                
+                                            
+                                                }
+                                        /* @media screen and (max-width: 991px){
+                                            .food-section .left-white{
+                                                transform: translate(0px, 0px);
+                                            
+                                                
+                                                    }
+                                
+                                            
+                                                } */
+
+                                                
+
+
+                                                .food-section .card-header{
+                                                    border: none !important;
+                                                }
+
+
+                                                /* @media screen and (max-width: 768px){
+                                                    .food-section .left-gray img{
+                                                        transform: translate(53px ,-27px) !important;
+                                                    }
+   } */
+   .food-section .left-gray .doll img{
+    transform: translate(-6px ,-17px);
+    opacity: 0.4;
+}

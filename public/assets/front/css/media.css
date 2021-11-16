@@ -1,0 +1,6226 @@
+/* ------------------------------------------- max 300----------------------------- */
+@media (max-width: 299.99px){ 
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 15%;
+        text-align: center;
+        padding-top: 15%;
+    }
+    .navbar-toggler i {
+        font-size: 30px;
+        padding: 10px;
+        color: #fff;
+    }
+    .navbar-brand img {
+        width: 65%;
+        top: -35px;
+        left: -10px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 22px 32px 22px 32px;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .nav-link {
+        padding: 20px 0px;
+        margin-left: 10px;
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_overlay_content {
+        transform: translateY(45%);
+    }
+    .banner_overlay_content h1 {
+        font-size: 17px;
+        width: 66%;
+        border: 1px solid #FEFEFF;
+        padding: 25px 0;
+        line-height: 0px;
+        margin-bottom: 26px;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 16px;
+        padding: 7px 12px;
+        margin: 0 -8px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 16px;
+        padding: 7px 12px;
+        margin: 0 11px;
+    }
+    .banner_big_arrow {
+        padding-top: 13%;
+    }
+    .banner_big_arrow img {
+        display: none;
+    }
+    .promise_content h3 {
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    .promise_content h2 {
+        font-size: 20px;
+        padding-top: 0px;
+        margin-bottom: 22px;
+        line-height: 14px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 33%;
+        height: 15%;
+        top: 49px;
+        width: 33%;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 36%;
+        width: 28%;
+        height: 14%;
+    }
+    #promise_area2 {
+        padding-bottom: 20%;
+        padding-top: 5%;
+    }
+    .promise_card1 {
+        background-image: none;
+        width: 100%;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+        right: 8%;
+    }
+    .promise_card1 img {
+        position: relative;
+        left: 20px;
+        padding: 0px 0 0 55px;
+    }
+    .promise1-ol-content {
+        transform: translateY(25%);
+        height: 100%;
+    }
+    
+    .promise1-overlay h3 {
+        padding-top: 20px;
+        font-size: 24px;
+        padding-bottom: 10px;
+        padding-left: 26%;
+        line-height: 10px;
+    }
+    .promise1-overlay p {
+        font-size: 18px;
+        padding-left: 26%;
+    }
+    .promise1-overlay a {
+        top: 0% !important;
+        line-height: 40px;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    .promise_card2 img {
+        padding: 7px 8px 0 43px;
+    }
+    .promise2-overlay img {
+        width: 115px;
+        position: relative;
+    }
+    .promise2-ol-content {
+        transform: translateY(18%);
+        height: 100%;
+    }
+    .promise2-overlay h3 {
+        padding-top: 16px;
+        font-size: 20px;
+        left: 7%;
+        line-height: 10px;
+    }
+    .promise2-overlay p {
+        font-size: 18px;
+        left: 6%;
+        line-height: 0px;
+    }
+    .promise2-overlay a {
+        left: 8%;
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .ourCafe_title p {
+        font-size: 28px;
+        padding-top: 60px;
+    }
+    .ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        line-height: 12px;
+    }.ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .ourcafe_content {
+        padding-bottom: 70px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 180px;
+        font-size: 16px;
+        border: 2px solid #FEFEFF;
+        padding: 0px 0px;
+        width: 98%;
+    }
+    .ourcafe_content a {
+        font-size: 18px;
+        padding: 18px 38px;
+    }
+    .catering_content {
+        padding-bottom: 40px;
+    }
+    .catering_title p {
+        font-size: 20px;
+        padding-top: 60px;
+        line-height: 10px;
+    }
+    .catering_title h2 {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .catering_content h2 {
+        margin-top: 180px;
+        font-size: 20px;
+        border: 2px solid #FEFEFF;
+        padding: 8px 12px;
+        width: 98%;
+    }
+    .catering_content a {
+        font-size: 16px;
+        padding: 18px 30px;
+    }
+    #about_area {
+        margin-bottom: -260px;
+    }
+    .about_content h2 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 0px;
+    }
+    .about_content .about-p2 {
+        font-size: 18px;
+        padding-top: 12px;
+        line-height: 21px;
+    }
+    .about_content .about-p3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+        line-height: 10px;
+    }
+    .about_content p {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .about-img img {
+        width: 85%;
+        top: 38%;
+        left: -70%;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_icon  {
+        justify-content: center;
+        /* padding-top: -19px; */
+        height: 100px;
+        margin-top: -74px;
+        padding-bottom: 42px;
+    }
+    .gallery_hover i {
+        font-size: 30px;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 24px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 100px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+    .about-img img {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .about-bg-img{
+        display: none;
+    }
+    #gallery_area {
+        margin-top: 156%;
+    }
+    .gallery_part1 img {
+        padding: 0 1px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 30px;
+    }
+    .gallery_part2 img {
+        padding: 0 1px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 9px;
+        width: 79%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+    .qur_img {
+        width: 72px;
+        height: 51px;
+        margin: 47px 0 -80px -80%;
+    }
+    .review_silder {
+        padding-top: 50px;
+    }
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+        right: 60px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 {
+        text-align: center;
+    }
+    .contect_part1 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .contect_part11 p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .contect_part12 p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .contect_part2 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .contect_part1Img {
+        padding-bottom: 80px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 96%;
+        height: 41px;
+        font-size: 20px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(-13%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_part4 {
+        padding-top: 0px;
+    }
+    .footer_img {
+        height: 128px;
+        padding-top: 0;
+    }
+   
+    .footer_top_bg {
+        display: none;
+    }
+    .back_up_bnt {
+        width: 45px;
+        height: 52px;
+        z-index: 999999999;
+        right: 19px;
+        top: -25%;
+    }
+    .back_up_bnt p {
+        font-size: 26px;
+        line-height: 74px;
+        padding-top: 0%;
+    }
+    .promise_area {
+        display: none;
+    }
+ }
+/* ------------------------------------------- 300 t0 449.99----------------------------- */
+@media (min-width: 300px) and (max-width: 449.99px) { 
+    #imprNoti {
+        width: 100%;
+        height: 20px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .navbar-toggler i {
+        font-size: 27px;
+        padding: 5px 20px 5px 0px;
+        color: #fff;
+    }
+    .navbar-brand img {
+        width: 60%;
+        top: -22px;
+        left: 10px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 10px 20px 10px 20px;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+        font-size: 18px;
+    }
+    .nav-link {
+        padding: 6px 0px;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .banner_overlay_content {
+        padding-top: 90px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner_overlay_content h1 {
+        font-size: 16px;
+        width: 80%;
+        border: 2px solid #FEFEFF;
+        padding: 0px 0;
+        line-height: 46px;
+        margin-bottom: 5px;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 16px;
+        padding: 10px 10px;
+        margin-right: 5px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 16px;
+        padding: 10px 10px;
+        margin: 0px 0px;
+    }
+    .banner_big_arrow {
+        padding-top: 13%;
+    }
+    .banner_big_arrow img {
+        display: none;
+    }
+    .promise_content h3 {
+        font-size: 20px;
+        padding-top: 30px;
+        line-height: 0px;
+    }
+    .promise_content h2 {
+        font-size: 22px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        line-height: 60px;
+    }
+    .top_review1 img {
+        padding-top: 0px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 33%;
+        height: 15%;
+        top: 49px;
+        width: 33%;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 36%;
+        width: 28%;
+        height: 14%;
+    }
+  
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+    }
+   
+    .promise1-ol-content {
+        transform: translateY(25%);
+        height: 100%;
+    }
+    .promise1-ol-content img {
+        width: 180px;
+    }
+    .promise1-overlay p {
+        font-size: 28px;
+    }
+    .promise1-overlay a {
+        top: 0% !important;
+        line-height: 130px;
+    }
+    .promise2-ol-content img {
+        width: 180px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 35px;
+        font-size: 40px;
+        left: 5%;
+    }
+    .promise2-overlay p {
+        font-size: 28px;
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }.promise2-overlay a {
+        left: 5%;
+        top: 1%;
+    }
+    .ourCafe_title p {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .ourCafe_title h2 {
+        font-size: 28px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 40px;
+    }
+
+    .ourcafe_content a {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .catering_title p {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .catering_title h2 {
+        font-size: 28px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 30px;
+    }
+
+    .catering_content a {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+
+    .about_content .about-p3 {
+        font-size: 22px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+
+    .about-bg-img {
+        display: none;
+    }
+    #gallery_area {
+        background: rgba(27, 26, 25, 0.05);
+        margin-top: 300px;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .gallery_icon  {
+        justify-content: center;
+        /* padding-top: -19px; */
+        height: 100px;
+        margin-top: -74px;
+        padding-bottom: 42px;
+    }
+    .gallery_hover i {
+        font-size: 23px;
+        top: 34%;
+        left: -3%;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 17px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 100px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+
+    .gallery_part1 img {
+        padding: 0 2px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+        margin-top: 10px;
+    }
+    .gallery_part2 img {
+        padding: 0 2px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 9px;
+        width: 87%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+    }
+    .qur_img {
+        width: 50px;
+        height: 28px;
+        margin-top: 10px;
+    }
+
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+        right: 60px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 {
+        text-align: center;
+    }
+
+
+
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 100%;
+        height: 41px;
+        font-size: 20px;
+        margin-left: 3px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 16px;
+        transform: translateY(-13%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_part4 {
+        padding-top: 0px;
+    }
+    .footer_img {
+        height: 128px;
+        padding-top: 0;
+    }
+    .back_up_bnt {
+        top: -40%;
+        width: 40px;
+        height: 50px;
+        right: 10px;
+    }
+    .back_up_bnt p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    /* promise extra area  */
+    
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+        right: 20px;
+    }
+     /* wwww--------------- */
+     .imagess img.vv1 {
+        width: 149%;
+        margin-left: -32px;
+    }
+    .imagess2 {
+        top: 2px;
+        width: 125%;
+    }
+    .imagess2 img.vv2 {
+        width: 166%;
+        margin-top: 0px;
+        margin-left: -30px;
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+        height: 100%;
+    }
+    .promise1-overlay {
+        width: 127%;
+        margin-left: -18px;
+    }
+    .promise2-overlay {
+        left: -22px;
+        width: 127%;
+    }
+    /* wwwwwwwwwww_--------------------------------- */
+    .promise1-ol-content img {
+        width: 35px;
+        margin-top: -35px;
+    }
+    .promise1-overlay h3 {
+        padding-top: 0px;
+        font-size: 20px;
+        margin-top: -25px;
+    }
+    .promise1-overlay p {
+        font-size: 16px;
+        margin-top: -70px;
+    }
+    .promise1-overlay a {
+        top: -3% !important;
+        line-height: 0px;
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .promise2-ol-content {
+        transform: translateY(24%);
+        /* height: 100%; */
+        margin-left: 0px;
+        width: 141%;
+    }
+    .promise2-ol-content img {
+        width: 35px;
+        margin-top: -18px;
+    }
+    .promise2-overlay h3 {
+        margin-top: -53px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .promise2-overlay p {
+        font-size: 16px;
+        left: 2%;
+        top: -71px;
+        padding: 0 17px;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }
+    .promise2-overlay a {
+        left: 0%;
+        top: -74px;
+        font-size: 16px;
+        line-height: 0px;
+        padding: 5px 5px;
+    }
+    /* promise extra area end  */
+    /* ------------ cafe page --------- */
+    .banner_overlay_content.boct {
+        transform: inherit;
+        text-align: center;
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 0px 0 0px 0;
+        line-height: 51px;
+        font-size: 20px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 12px 5px 18px;
+        margin-top: 2px;
+    }
+    .banner_big_arrow2 img {
+        display: none;
+    }
+    .promise_contentp {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .manu_slider_items img {
+        width: 98%;
+    }
+    .call_bnt img {
+        width: 30%;
+        height: 100%;
+    }
+    .call_bnt {
+        /* position: relative; */
+        margin-top: 60px;
+        margin-bottom: 49px;
+        /* right: 8%; */
+    }
+    .call_bnt button p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    .slide_gel_title p {
+        font-size: 20px;
+        line-height: 0px;
+        padding-top: 45px;
+    }
+    .slide_gel_title h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .gal_slide_arrows i {
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+    .glb {
+        top: 100%;
+        left: 1%;
+    }
+    .grb {
+        top: 100%;
+        left: 74%;
+    }
+    .manu_slider_items {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+     /* catering page ------------------- */
+     .banner_overlay_content.boct2 {
+        transform: translateY(-3%);
+    }
+    .banner_overlay_content.boct .a3 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 9px 10px 2px 10px;
+        margin-top: 18px;
+    }
+    .ser_icons1 {
+        padding-top: 50px;
+    }
+    .ser_icons1 p {
+        font-size: 28px;
+        line-height: 0px;
+    }
+    #manu_area_manu {
+        padding-bottom: 0px;
+    }
+    .manu_title p {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .manu_title h2 {
+        font-size: 28px;
+        line-height: 0px;
+        padding-bottom: 20px;
+    }
+    .manu_title .mtp {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .model_area .nav-pills .nav-link.active {
+        padding: 2px;
+    }
+    .model_area .nav-link {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .model_area {
+        display: flex;
+        justify-content: center;
+    }
+    .model_img1 {
+        left: 0px;
+    }
+    .manu_overley i {
+        transform: translateY(303%);
+    }
+    .download_icon {
+        margin-top: 0px;
+    }
+    .download_icon a {
+        font-size: 27px;
+        padding: 13px 15px;
+    }
+    .download_icon img {
+        margin-left: 40%;
+        margin-top: 34px;
+        width: 21%;
+    }
+    .gal_slide_arrows i {
+        padding: 11px 14px;
+    }
+    
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .footer_top_bg {
+        position: absolute;
+        top: -16%;
+        width: 100%;
+    }
+    .row2 {
+     left: 0;;
+    }
+    .model_area .nav {
+        margin-top: 50px;
+    }
+    .promise_area {
+        display: none;
+    }
+    .row2 p{
+        display: none;
+    }
+   .ser_icons1 {
+       width: 100%;
+   }
+   .ser_icons1 img{
+    width: 100%;
+   }
+   .ser_icons {
+    width: 100%;
+   }
+   .ser_icons img {
+	width: 100%;
+	padding-top: 24px;
+}
+.ser_icons3 {
+	margin-top: 15px;
+}
+#serAndDeli_area {
+	padding-bottom: 20px;
+}
+#promise_area {
+	display: none;
+}
+/* order page css -----------------  */
+.catering_breakfast_logo {
+    display: none;
+}
+.catering_breakfast_manu2  {
+    display: none !important;
+}
+.catering_breakfast_select  {
+    display: none !important;
+}
+.catering_breakfast_header_area {
+	height: 71px;
+	background: transparent;
+}
+.catering_breakfast_manu a.active , .catering_breakfast_manu a.activeAndLeft {
+	top: 20px;
+	margin-left: 0px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.catering_breakfast_manu a {
+    top: 28px;
+}
+.option_card_title h2 {
+	font-size: 26px;
+}
+.flae_title h2 {
+	font-size: 28px;
+}
+.food_order_link {
+	padding-top: 10px;
+	display: flex !important;
+	margin-top: 0px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	margin-left: -12px;
+	background: #8EC39B;
+}
+.food_order_link a {
+	border: 0px solid #1B1A19;
+	font-size: 12px;
+	background: #8EC39B;
+	padding: 6px 5px;
+	width: 25%;
+}
+.food_order_link a.active {
+	background: #8EC39B;
+	color: #fff;
+}
+.small_btn1 {
+	padding-bottom: 100px;
+	margin-left: 80px;
+	margin-left: 0%;
+}
+.arrow_left_btn {
+	/* margin-top: -204px; */
+	position: absolute;
+	top: 115px;
+}
+.arrow_left_btn_o {
+	/* margin-top: -204px; */
+	position: absolute;
+	top: 0px;
+}
+.list_line  {
+	justify-content: center;
+}
+.arrow_left_btn p {
+    display: none;
+}
+.arrow_left_btn_o p {
+    display: none;
+}
+.arrow_left_btn img {
+	/* margin-top: 5px; */
+	background: #8EC39B;
+	padding: 10px 15px;
+	border-radius: 32px;
+	width: 77%;
+}
+.arrow_left_btn_o img {
+	margin-top: -29px;
+	background: #8EC39B;
+	padding: 10px 17px;
+	border-radius: 36px;
+	width: 86%;
+}
+.p_kom15 {
+	margin-left: 0px;
+}
+.finger_part2 {
+	padding-bottom: 20px;
+	height: auto;
+	margin-left: -9px;
+}
+.finger_title h2 {
+	font-size: 25px;
+	padding-top: 17px;
+}
+.finger_title img {
+	margin-top: 16px;
+	padding-left: 81px;
+	width: 42%;
+}
+.flae_list .list_line .form-check-input[type="checkbox"] {
+	width: 20px;
+	height: 18px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.option_header_select .form-check-input {
+    margin-left: 0px;
+    margin-top: 28px;
+}
+.card_list ul li {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 20px;
+	color: #1B1A19;
+}
+.list_line p {
+	font-size: 14px;
+}
+.hidee{
+    display: none !important;
+}
+.catering_breakfast_manu .cbp::before {
+	height: 0px;
+
+}
+.food_last_area {
+	text-align: center;
+	margin-left: -12px;
+	margin-top: 50px !important;
+}
+.finger_part {
+	margin-left: -12px;
+	height: auto;
+}
+.big_btn_o a {
+	font-size: 16px;
+	padding: 18px 12%;
+	margin-left: 0px;
+}
+.backAndLinkBtn {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.big_btn_o {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.flae_list {
+	padding-bottom: 0px;
+}
+.small_btn_o {
+	padding-bottom: 50px;
+	text-align: center !important;
+}
+.small_btn_o a {
+	font-size: 14px !important;
+	margin-left: 0px;
+}
+.list_suru ul li img {
+	width: 15px;
+	height: 17px;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+/* catering tea addons  */
+.hidee{
+    display: none;
+}
+.ulta h2 {
+	transform: rotate(0deg);
+	top: 0px;
+	left: 0;
+	padding-top: 8px;
+	padding-bottom: 20px;
+}
+.list_suru {
+	margin-top: 10px !important;
+    margin-left: 0px;
+}
+.list_title_one {
+	margin-left: -80px;
+    margin-top: 24px;
+}
+.list_title_icon1  {
+	margin-left: 16%;
+}
+.list_title_icon  {
+	margin-right: 41px !important;
+	margin-left: 95px !important;
+}
+.onliimg {
+	margin-left: -126px !important;
+}
+.list_title_icon img {
+	width: 30px;
+	height: 28px;
+}
+.food-last-list {
+	padding: 0 5px;
+    margin-left: 0px;
+}
+.list_title_icon p {
+	font-size: 12px;
+	padding-top: 0px;
+}
+.list_suru ul li {
+	font-size: 12px;
+}
+.list_suru ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.food-last-list .form-check-input[type="checkbox"] {
+	width: 18px;
+	height: 17px;
+	margin-top: 0px;
+}
+.ulta {
+	text-align: center;
+	margin-left: -12px;
+}
+.small_btn1 a {
+	font-size: 16px;
+}
+/* catering lunch addons  */
+.list12_title {
+	margin-top: 0px;
+	margin-left: 40px !important;
+}
+.gggg {
+	margin-left: -26px !important;
+}
+/* catering dinner  */
+.option_card_title h2 {
+	font-size: 20px;
+	line-height: 16px;
+	padding-left: 10px;
+}
+.sapmm {
+	width: 118%;
+	font-size: 14px;
+}
+.option_header_select1 {
+	padding-top: 26px;
+	padding-left: 27px;
+}
+.d_title h2 {
+	font-size: 21px;
+	line-height: 26px;
+	transform: rotate(-90deg) !important;
+	padding-bottom: 84px;
+}
+.dinner_title {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.d_title2 h2 {
+	font-weight: 500;
+	font-size: 14px;
+    width: 100%;
+}
+.d_title2 {
+	left: -4%;
+}
+.d_title2 ul li {
+	font-size: 12px;
+	padding-right: 5px;
+}
+.food_order_link .activelight {
+	font-size: 12px;
+}
+.flae_list11 ul li {
+	font-size: 14px;
+}
+.flae_title  {
+	justify-content: center;
+}
+.flae_title h2 {
+	font-size: 22px;
+	margin-left: 7px;
+}
+.option_card {
+	margin: 0 13px;
+}
+.finger_part11  {
+	margin-left: -12px;
+}
+.card_header_icon {
+	justify-content: center;
+	margin-top: 10px !important;
+}
+.option_header_select1 .form-check-input {
+	width: 20px;
+	height: 22px;
+	margin-top: -4px;
+}
+.ul_list1 ul li {
+	font-size: 15px;
+}
+.dinner_top_icon {
+	display: none;
+}
+.option_card_title_small h5 {
+	font-size: 14px;
+}
+/* catering dinner addons  */
+.dinner_addons_card1 {
+	margin-top: 40px;
+	margin-left: 0px;
+	width: 100%;
+	justify-content: center;
+}
+.dinner_first_icon img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.dinner_first_icon p {
+	font-size: 16px;
+	line-height: 17px;
+	padding-top: 0px;
+}
+.dinner_first_icon {
+	margin-right: 20px;
+}
+.dinner_card_one {
+	margin-top: 30px;
+	margin-left: -12px;
+}
+.dinner_addons_title h2 {
+	font-size: 20px;
+	padding: 0px 147px 0px 30px;
+}
+.dinner_addons_title span {
+	font-size: 21px;
+	padding: 7px 0px;
+}
+.dinner_addons_title .form-check-input[type="checkbox"] {
+	margin-top: 13px;
+}
+.dinner_addons_list_items p {
+	font-size: 14px;
+}
+.dinner_addons_list_items .form-check-input[type="checkbox"] {
+	width: 15px;
+	height: 16px;
+}
+.dinner_addons_title {
+	justify-content: center;
+}
+.catering_breakfast_manu {
+	margin-top: 0px;
+}
+.catering_breakfast_manu {
+	margin-top: -2px;
+}
+/* review area css here  */
+.review_card_maddile_main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.review_header2 h2 {
+	font-size: 15px;
+	line-height: 22px;
+	margin-left: -10px;
+	margin-top: 9px;
+}
+.arrow_left_btn_o {
+	margin-top: 40px;
+}
+.review_hader1 .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 25px;
+	height: 25px;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-left: -25px;
+}
+.review_close i {
+	font-size: 20px;
+	position: relative;
+	top: -41px;
+	left: 20px;
+}
+.review_title_iconPM i {
+	padding: 14px;
+	font-size: 9px;
+	cursor: pointer;
+}
+.review_title_iconPM span {
+	font-size: 14px;
+	padding: 0 2px;
+}
+.review_header3 span {
+	font-size: 15px;
+}
+.review_link a {
+	font-size: 16px;
+}
+/* details area css here  */
+.nai800 {
+	display: none;
+}
+.center800{
+    justify-content: center;
+}
+.details_form_card {
+	padding: 33px 14px 42px 15px;
+	width: 100%;
+	margin-left: 0%;
+    margin-top: 40px;
+}
+.pickunAndDeli_area {
+	margin-right: 0px;
+	margin-top: 40px;
+}
+.pickup {
+	margin-left: 0px;
+}
+.dateAndTime {
+	width: 100%;
+}
+.giz-calendar .giz-calendar-content button {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.giz-calendar button {
+	padding: 0;
+}
+.giz-calendar .giz-calendar-content .giz-calendar-weekday {
+	width: 100%;
+}
+.calender_view ul li .nav-link {
+	font-size: 18px;
+	width: 100px;
+	height: 45px;
+}
+.calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	font-size: 18px;
+	width: 100px;
+	height: 45px;
+}
+.dateAndTime span {
+	font-size: 16px;
+}
+main .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.details_form_card form input {
+	width: 100%;
+	height: 54px;
+}
+.dtabel.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * .5);
+	padding-left: calc(var(--bs-gutter-x) * .5);
+	margin-top: var(--bs-gutter-y);
+	display: inline-table;
+}
+.kaj400 {
+	z-index: 999999999;
+	width: 90%;
+}
+.big400 {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+.dateAndTime {
+	width: 100%;
+	justify-content: center;
+}
+/* confirm area css here  */
+.confirmtion_title {
+	padding-left: 45px;
+}
+.confirmtion_title h2 {
+	margin-top: 45px;
+	font-size: 25px;
+	line-height: 29px;
+}
+.confirmtion_title p {
+	font-size: 18px;
+}
+.con_card_area {
+	padding: 24px;
+	margin-top: 45px;
+	width: 95%;
+	margin-left: 13px;
+}
+.con_title3 {
+	width: 190%;
+	margin-left: -46px;
+}
+.con_title4 {
+	margin-left: -5px;
+	margin-top: 8px;
+}
+.confirm_last {
+	width: 275%;
+	text-align: start;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.con_title2 h2 {
+	font-size: 16px;
+	margin-left: -56px;
+}
+.con_title1 .form-check-input:checked {
+	width: 20px;
+	height: 20px;
+	margin-top: 16px;
+}
+.con_title3 span {
+	font-size: 12px;
+	line-height: 10px;
+	margin-top: 17px;
+}
+.con_title2 p {
+	font-size: 14px;
+	margin-left: -65px;
+}
+.con_title3 img {
+	width: 18px;
+	height: 20px;
+	margin-top: 15px;
+}
+.con_title3 {
+	width: 174%;
+	margin-left: -27px;
+	margin-top: 0px;
+}
+.con_title2 {
+	margin-left: 22px;
+}
+.con_card_area .row {
+	margin-top: 10px;
+}
+.sobek {
+	margin-top: -17px;
+}
+.con_title5 img {
+	width: 26px;
+	height: 18px;
+	margin-top: -11px;
+}
+.con_title4 span {
+	font-size: 15px;
+	margin-top: -18px;
+}
+.sobek2{
+    padding-top: -4px;
+}
+element {
+	width: 30px;
+	margin-top: 8px;
+}
+.confirm_last a {
+	font-size: 18px;
+	line-height: 35px;
+}
+.last300 img {
+	width: 28px;
+	margin-left: -5px;
+	margin-top: 5px;
+	height: 23px;
+}
+.last300 span {
+	font-size: 15px;
+	margin-top: 0px;
+}
+.last_bntt {
+	margin-left: 0px;
+}
+
+}
+@media (min-width: 370px) and (max-width: 449.99px){
+    .promise2-ol-content {
+        transform: translateY(30%);
+        /* height: 100%; */
+        margin-left: 3px;
+        width: 141%;
+        padding: 0 10px;
+    }
+}
+@media (min-width: 450px) and (max-width: 488px){
+    .promise1-overlay p {
+        font-size: 16px;
+        margin-top: -70px;
+        padding: 22px 2px 0px 2px;
+    }
+    .list_line p {
+        padding: 0 0px 0 0;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 19px;
+        height: 20px;
+}
+
+
+}
+
+/* ------------------------------------------- 450 t0 577.99----------------------------- */
+
+@media (min-width: 450px) and (max-width: 577.99px) { 
+    #imprNoti {
+        width: 100%;
+        height: 20px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .navbar-toggler i {
+        font-size: 30px;
+        padding: 10px 20px 10px 0px;
+        color: #fff;
+    }
+    .navbar-brand img {
+        width: 80%;
+        top: -32px;
+        left: 10px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 22px 32px 22px 32px;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .nav-link {
+        padding: 20px 0px;
+        margin-left: 10px;
+    }
+    .banner_overlay_content {
+        padding-top: 110px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner_overlay_content h1 {
+        font-size: 22px;
+        width: 80%;
+        border: 3px solid #FEFEFF;
+        padding: 0px 0;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_big_arrow {
+        padding-top: 13%;
+    }
+    .banner_big_arrow img {
+        display: none;
+    }
+    .promise_content h3 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+    .promise_content h2 {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: -25px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 33%;
+        height: 15%;
+        top: 49px;
+        width: 33%;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 36%;
+        width: 28%;
+        height: 14%;
+    }
+  
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+    }
+   
+    .promise1-ol-content {
+        transform: translateY(25%);
+        height: 100%;
+    }
+    .promise1-ol-content img {
+        width: 180px;
+    }
+    .promise1-overlay p {
+        font-size: 28px;
+    }
+    .promise1-overlay a {
+        top: 0% !important;
+        line-height: 130px;
+    }
+    .promise2-ol-content img {
+        width: 180px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 35px;
+        font-size: 40px;
+        left: 5%;
+    }
+    .promise2-overlay p {
+        font-size: 28px;
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }.promise2-overlay a {
+        left: 5%;
+        top: 1%;
+    }
+    .ourCafe_title p {
+        font-size: 28px;
+        padding-top: 60px;
+    }
+    .ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .ourcafe_content {
+        padding-bottom: 100px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 180px;
+        font-size: 22px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 0px;
+    }
+    .ourcafe_content a {
+        font-size: 18px;
+        padding: 18px 38px;
+    }
+    .catering_content {
+        padding-bottom: 100px;
+    }
+    .catering_title p {
+        font-size: 28px;
+        padding-top: 82px;
+    }
+    .catering_title h2 {
+        font-size: 28px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .catering_content h2 {
+        margin-top: 180px;
+        font-size: 28px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .catering_content a {
+        font-size: 18px;
+        padding: 18px 38px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 15px;
+    }
+    .about_content .about-p2 {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+    .about_content .about-p3 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    .about_content p {
+        padding-top: 70px;
+        font-size: 28px;
+    }
+    .about-img img {
+        width: 233%;
+        top: 38%;
+        left: -165%;
+    }
+    .about-bg-img {
+        /* display: none; */
+        width: 10%;
+    }
+    #gallery_area {
+        background: rgba(27, 26, 25, 0.05);
+        margin-top: 300px;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_icon  {
+        justify-content: center;
+        /* padding-top: -19px; */
+        height: 100px;
+        margin-top: -74px;
+        padding-bottom: 42px;
+    }
+    .gallery_hover i {
+        font-size: 23px;
+        top: 34%;
+        left: -3%;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 24px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 100px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+    .about-bg {
+        top: 8px;
+        width: 21%;
+        margin-left: -68px;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 9px;
+        width: 87%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+    .qur_img {
+        width: 121px;
+        height: 90px;
+    }
+    .review_silder {
+        padding-top: 50px;
+    }
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+        right: 60px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 {
+        text-align: center;
+    }
+    .contect_part1 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .contect_part11 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part12 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part2 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .contect_part1Img {
+        padding-bottom: 80px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 380px;
+        height: 41px;
+        font-size: 20px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(-13%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_part4 {
+        padding-top: 0px;
+    }
+    .footer_img {
+        height: 128px;
+        padding-top: 0;
+    }
+    .back_up_bnt {
+        top: -37%;
+        width: 40px;
+        height: 50px;
+        right: 10px;
+    }
+    .back_up_bnt p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    /* promise extra area  */
+    
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+        right: 20px;
+    }
+     /* wwww--------------- */
+     .imagess img.vv1 {
+        width: 130%;
+        margin-left: -30px;
+    }
+    .imagess2 {
+        top: 2px;
+        width: 120%;
+    }
+    .imagess2 img.vv2 {
+        width: 150%;
+        /* height: 320px; */
+        margin-top: 0px;
+        margin-left: -30px;
+        /* margin-right: -48px; */
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+        height: 100%;
+        margin-left: -18%;
+    }
+    .promise1-overlay {
+        width: 127%;
+        margin-left: -5px;
+    }
+    .promise2-overlay {
+        left: -33px;
+        width: 127%;
+    }
+    /* wwwwwwwwwww_--------------------------------- */
+    .promise1-ol-content img {
+        width: 37px;
+        margin-top: -50px;
+    }
+    .promise1-overlay h3 {
+        padding-top: 0px;
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .promise1-overlay p {
+        font-size: 16px;
+        margin-top: -70px;
+        padding: 25px 2px;
+    }
+    .promise1-overlay a {
+        top: -3% !important;
+        line-height: 0px;
+        font-size: 16px;
+    }
+    .promise2-ol-content {
+        transform: translateY(34%);
+        /* height: 100%; */
+        margin-left: 0px;
+        width: 141%;
+        text-align: center;
+    }
+    .promise2-ol-content img {
+        width: 37px;
+        margin-top: -35px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 0px;
+        font-size: 20px;
+        /* left: 5%; */
+        line-height: 10px;
+    }
+    .promise2-overlay p {
+        font-size: 14px;
+        /* left: 5%; */
+        top: -57px;
+        padding: 15px 0;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }
+    .promise2-overlay a {
+        left: 3%;
+        top: -50px;
+        font-size: 14px;
+        line-height: 0px;
+        padding: 12px 13px;
+    }
+    /* promise extra area end  */
+    /* ------------ cafe page --------- */
+    .banner_overlay_content.boct {
+        transform: translateY(0%);
+        text-align: center;
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 1px 0 0px 0;
+        line-height: 55px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 16px;
+        line-height: 35px;
+        padding: 10px 47px 13px 61px;
+        margin-top: 0px;
+    }
+    .banner_big_arrow2 img {
+        display: none;
+    }
+    .promise_contentp {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .manu_slider_items img {
+        width: 98%;
+    }
+    .call_bnt img {
+        width: 30%;
+        height: 100%;
+    }
+    .call_bnt {
+        margin-top: 60px;
+        margin-bottom: 49px;
+    }
+    .call_bnt button p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    .slide_gel_title p {
+        font-size: 20px;
+        line-height: 0px;
+        padding-top: 45px;
+    }
+    .slide_gel_title h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .gal_slide_arrows i {
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+    .glb {
+        top: 100%;
+        left: 1%;
+    }
+    .grb {
+        top: 100%;
+        left: 77%;
+    }
+    .manu_slider_items {
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+    }
+     /* catering page ------------------- */
+     .banner_overlay_content.boct2 {
+        transform: translateY(0%);
+    }
+     .banner_overlay_content.boct .a3 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 47px 12px 38px;
+        margin-top: 23px;
+    }
+    .ser_icons1 {
+        padding-top: 50px;
+    }
+    .ser_icons1 p {
+        font-size: 28px;
+        line-height: 0px;
+    }
+    #manu_area_manu {
+        padding-bottom: 0px;
+    }
+    .manu_title p {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .manu_title h2 {
+        font-size: 30px;
+        line-height: 59px;
+    }
+    .manu_title .mtp {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .model_area .nav-pills .nav-link.active {
+        padding: 2px;
+    }
+    .model_area .nav-link {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .model_area {
+        text-align: center;
+        margin-left: 15%;
+    }
+    .model_img1 {
+        left: -79%;
+    }
+    .manu_overley i {
+        transform: translateY(455%);
+    }
+    .download_icon {
+        margin-top: 0px;
+    }
+    .download_icon a {
+        font-size: 27px;
+        padding: 13px 15px;
+    }
+    .download_icon img {
+        margin-left: 40%;
+        margin-top: 34px;
+        width: 21%;
+    }
+    .gal_slide_arrows i {
+        padding: 11px 14px;
+    }
+    
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .footer_top_bg {
+        position: absolute;
+        top: -16%;
+        width: 100%;
+    }
+    .row2 {
+        left: 0px;
+    }
+    .model_area .nav {
+        margin-top: 50px;
+    }
+    .promise_area {
+        display: none;
+    }
+    .promise_area {
+        display: none;
+    }
+    .row2 p{
+        display: none;
+    }
+   .ser_icons1 {
+       width: 100%;
+   }
+   .ser_icons1 img{
+    width: 100%;
+   }
+   .ser_icons {
+    width: 100%;
+   }
+   .ser_icons img {
+	width: 100%;
+	padding-top: 24px;
+}
+.ser_icons3 {
+	margin-top: 15px;
+}
+#serAndDeli_area {
+	padding-bottom: 20px;
+}
+#promise_area {
+	display: none;
+}
+.nav-link {
+	font-size: 18px;
+}
+/* order page css -----------------  */
+.catering_breakfast_logo {
+    display: none;
+}
+.catering_breakfast_manu2  {
+    display: none !important;
+}
+.catering_breakfast_select  {
+    display: none !important;
+}
+.catering_breakfast_header_area {
+	height: 87px;
+	background: transparent;
+}
+
+.catering_breakfast_manu a {
+    top: 28px;
+}
+.food_order_link {
+	padding-top: 10px;
+	display: flex !important;
+	margin-top: 0px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	margin-left: -12px;
+	background: #8EC39B;
+}
+.food_order_link a {
+	border: 0px solid #1B1A19;
+	font-size: 16px;
+	background: #8EC39B;
+	padding: 16px 5px;
+	width: 25%;
+}
+.food_order_link .activelight {
+	font-size: 16px;
+	color: #f1f1f1;
+}
+.food_order_link a.active {
+	background: #8EC39B;
+	color: #fff;
+}
+.small_btn1 {
+	padding-bottom: 150px;
+	margin-left: 80px;
+	margin-left: 0%;
+}
+.arrow_left_btn {
+	/* margin-top: -204px; */
+	position: absolute;
+	top: 115px;
+}
+.arrow_left_btn_o {
+	/* margin-top: -204px; */
+	position: absolute;
+	top: 0px;
+}
+.arrow_left_btn p {
+    display: none;
+}
+.arrow_left_btn_o p {
+    display: none;
+}
+
+.arrow_left_btn_o img {
+	margin-top: -21px !important;
+	background: #8EC39B;
+	padding: 5px 17px;
+	border-radius: 36px;
+}
+.p_kom15 {
+	margin-left: 0px;
+}
+.finger_part2 {
+	padding-bottom: 20px;
+	height: 560px;
+	margin-left: -9px;
+}
+.option_header_select .form-check-input {
+    margin-left: 0px;
+}
+.hidee{
+    display: none !important;
+}
+.catering_breakfast_manu .cbp::before {
+	height: 0px;
+
+}
+.food_last_area {
+	text-align: center;
+	margin-top: 10px !important;
+}
+.finger_part {
+	margin-left: -12px;
+}
+.big_btn_o a {
+	font-size: 22px;
+	padding: 18px 20%;
+}
+.big_btn_o {
+	width: 100%;
+	padding-bottom: 60px;
+}
+.flae_list {
+	padding-bottom: 0px;
+}
+.small_btn_o  {
+	padding-bottom: 100px;
+}
+.small_btn_o a {
+	font-size: 19px;
+}
+.flae_list .list_line .form-check-input[type="checkbox"] {
+	width: 20px;
+}
+/* catering tea addons  */
+.hidee{
+    display: none;
+}
+.ulta h2 {
+	position: relative;
+	transform: rotate(0deg);
+	top: 0px;
+	left: 0;
+	padding-top: 19px;
+	padding-bottom: 20px;
+}
+.list_suru {
+	margin-top: 10px !important;
+    margin-left: 0px;
+}
+.list_title_one {
+	margin-left: -80px;
+}
+.list_title_icon1  {
+	margin-left: 16%;
+}
+.list_title_icon {
+	margin-right: 0px !important;
+	margin-left: 77px !important;
+}
+.onliimg {
+	margin-left: -54px !important;
+}
+.list12_title {
+	margin-top: 38px;
+	margin-left: 77px !important;
+}
+.dinner_top_icon {
+	display: none !important;
+}
+.d_title h2 {
+	font-size: 28px;
+	margin-right: 0px;
+	line-height: 36px;
+	margin-left: -27px;
+}
+.d_title2 h2 {
+	font-size: 20px;
+	padding-right: 0px;
+	width: 100%;
+	margin-left: 43px;
+}
+.option_card_title_small h5 {
+	font-size: 16px;
+}
+.d_title2 {
+	left: -10%;
+}
+.ulta {
+	margin-left: -12px;
+	text-align: center;
+}
+.list_suru ul li img {
+	width: 21px;
+	height: 21px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+/* review area css here  */
+.review_card_maddile_main {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.review_header2 h2 {
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: -10px;
+}
+.arrow_left_btn_o {
+	margin-top: 40px;
+}
+.review_hader1 .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 25px;
+	height: 25px;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-left: -25px;
+}
+.review_close i {
+	font-size: 20px;
+	position: relative;
+	top: -41px;
+	left: 20px;
+}
+/* details area css here  */
+.nai800 {
+	display: none;
+}
+.center800{
+    justify-content: center;
+}
+.details_form_card {
+	padding: 33px 14px 42px 15px;
+	width: 100%;
+	margin-left: 0%;
+    margin-top: 40px;
+}
+.pickunAndDeli_area {
+	margin-right: 0px;
+	margin-top: 40px;
+}
+.pickup {
+	margin-left: 0px;
+}
+.dateAndTime {
+	width: 100%;
+}
+.giz-calendar .giz-calendar-content button {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.giz-calendar button {
+	padding: 0;
+}
+.giz-calendar .giz-calendar-content .giz-calendar-weekday {
+	width: 100%;
+}
+.calender_view ul li .nav-link {
+	font-size: 18px;
+	width: 100px;
+	height: 45px;
+}
+.calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	font-size: 18px;
+	width: 100px;
+	height: 45px;
+}
+.dateAndTime span {
+	font-size: 16px;
+}
+main .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.details_form_card form input {
+	width: 100%;
+	height: 54px;
+}
+.dtabel.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * .5);
+	padding-left: calc(var(--bs-gutter-x) * .5);
+	margin-top: var(--bs-gutter-y);
+	display: inline-table;
+}
+.kaj400 {
+	z-index: 999999999;
+	width: 90%;
+}
+.big400 {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+.dateAndTime {
+	width: 100%;
+	justify-content: center;
+}
+/* confirm area css here  */
+.confirmtion_title {
+	padding-left: 45px;
+}
+.confirmtion_title h2 {
+	margin-top: 80px;
+}
+.con_card_area {
+	padding: 24px;
+	margin-top: 45px;
+	width: 95%;
+	margin-left: 13px;
+}
+.con_title3 {
+	width: 190%;
+	margin-left: -46px;
+}
+.con_title4 {
+	margin-left: -5px;
+	margin-top: 8px;
+}
+.confirm_last {
+	width: 275%;
+	text-align: start;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.con_title2 h2 {
+	font-size: 20px;
+	margin-left: -70px;
+}
+.con_title1 .form-check-input:checked {
+	width: 20px;
+	height: 20px;
+	margin-top: 16px;
+}
+.con_title3 span {
+	font-size: 12px;
+}
+.con_title3 img {
+	width: 18px;
+	height: 20px;
+	margin-top: 15px;
+}
+.con_title3 {
+	width: 190%;
+	margin-left: -46px;
+	margin-top: 0px;
+}
+.con_title2 {
+	margin-left: 22px;
+}
+.con_card_area .row {
+	margin-top: 10px;
+}
+.sobek {
+	margin-top: -17px;
+}
+.con_title5 img {
+	width: 26px;
+	height: 18px;
+}
+.con_title4 span {
+	font-size: 17px;
+	margin-top: -8px;
+}
+.sobek2{
+    padding-top: -4px;
+}
+.catering_breakfast_manu .activeLeft {
+	background-color: #000;
+	top: 28px;
+	margin-left: 10px;
+}
+.last_bntt {
+	margin-left: 0px;
+}
+.promise1-overlay p {
+	font-size: 14px;
+	margin-top: -64px;
+	padding: 22px 45px 0px 43px;
+}
+}
+@media (min-width: 578px){
+    .brr{
+        display: none;
+    }
+}
+@media (min-width: 450px) and (max-width: 488px){
+    
+    .list_line p {
+        padding: 0 0px 0 0;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 19px;
+        height: 20px;
+}
+/* catering dinner  */
+.dinner_title {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.d_icon_top  {
+	display: none !important;
+}
+.d_title2 {
+	left: 0%;
+}
+
+
+}
+/* ------------------------------------------- 578 t0 799.99----------------------------- */
+@media (min-width: 578px) and (max-width: 799.99px) { 
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .navbar-toggler i {
+        font-size: 30px;
+        padding: 20px;
+        color: #fff;
+    }
+    .navbar-brand img {
+        width: 80%;
+        top: -32px;
+        left: 10px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 22px 32px 22px 32px;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .nav-link {
+        padding: 20px 0px;
+        margin-left: 10px;
+    }
+    .banner_overlay_content {
+        padding-top: 150px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner_overlay_content h1 {
+        font-size: 27px;
+        width: 80%;
+        border: 3px solid #FEFEFF;
+        padding: 0px 0;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_big_arrow {
+        padding-top: 13%;
+    }
+    .banner_big_arrow img {
+        display: none;
+    }
+    .promise_content h3 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+    .promise_content h2 {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 33%;
+        height: 15%;
+        top: 49px;
+        width: 33%;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 36%;
+        width: 28%;
+        height: 14%;
+    }
+  
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+    }
+   
+    .promise1-ol-content {
+        transform: translateY(25%);
+        height: 100%;
+    }
+    .promise1-ol-content img {
+        width: 180px;
+    }
+    .promise1-overlay h3 {
+        padding-top: 35px;
+        font-size: 40px;
+    }
+    .promise1-overlay p {
+        font-size: 28px;
+    }
+    .promise1-overlay a {
+        top: 0% !important;
+        line-height: 130px;
+    }
+    .promise2-ol-content img {
+        width: 180px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 35px;
+        font-size: 40px;
+        left: 5%;
+    }
+    .promise2-overlay p {
+        font-size: 28px;
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }.promise2-overlay a {
+        left: 5%;
+        top: 1%;
+    }
+    .ourCafe_title p {
+        font-size: 28px;
+        padding-top: 60px;
+    }
+    .ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .ourcafe_content {
+        padding-bottom: 100px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 180px;
+        font-size: 26px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .ourcafe_content a {
+        font-size: 18px;
+        padding: 18px 38px;
+    }
+    .catering_content {
+        padding-bottom: 100px;
+    }
+    .catering_title p {
+        font-size: 28px;
+        padding-top: 82px;
+    }
+    .catering_title h2 {
+        font-size: 33px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .catering_content h2 {
+        margin-top: 180px;
+        font-size: 28px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .catering_content a {
+        font-size: 18px;
+        padding: 18px 38px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 15px;
+    }
+    .about_content .about-p2 {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+    .about_content .about-p3 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    .about_content p {
+        padding-top: 70px;
+        font-size: 28px;
+    }
+    .about-img img {
+        width: 330px;
+        top: 8%;
+        left: -284%;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_icon  {
+        justify-content: center;
+        /* padding-top: -19px; */
+        height: 100px;
+        margin-top: -74px;
+        padding-bottom: 42px;
+    }
+    .gallery_hover i {
+        font-size: 40px;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 24px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 100px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+    .about-bg {
+        top: -15%;
+        width: 18%;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 9px;
+        width: 87%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+    .qur_img {
+        width: 121px;
+        height: 90px;
+    }
+    .review_silder {
+        padding-top: 50px;
+    }
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+        right: 60px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 {
+        text-align: center;
+    }
+    .contect_part1 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .contect_part11 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part12 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part2 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .contect_part1Img {
+        padding-bottom: 80px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 380px;
+        height: 41px;
+        font-size: 20px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(-13%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_part4 {
+        padding-top: 0px;
+    }
+    .footer_img {
+        height: 128px;
+        padding-top: 0;
+    }
+    .back_up_bnt {
+        right: 19px;
+        top: -25%;
+        width: 68px;
+        height: 98px;
+    }
+    
+    .footer_top_bg img {
+        width: 100%;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    /* promise extra area  */
+    
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+    }
+     /* wwww--------------- */
+    .imagess img.vv1 {
+         width: 130%;
+     }
+     .imagess2 {
+        top: 2px;
+        width: 122%;
+    }
+    .imagess2 img.vv2 {
+        width: 148%;
+        /* height: 320px; */
+        margin-top: 0px;
+        margin-left: -41px;
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+        height: 100%;
+    }
+    .imagess {
+        position: relative;
+        left: -30%;
+        top: 0px;
+    }
+    .promise1-overlay {
+        width: 127%;
+    }
+    .promise2-overlay {
+        left: -7px;
+        width: 127%;
+        /* text-align: -34px; */
+        top: -1%;
+    }
+    /* wwwwwwwwwww_--------------------------------- */
+    .promise1-ol-content img {
+        width: 50px;
+        margin-top: -35px;
+    }
+    .promise1-overlay h3 {
+        padding-top: 14px;
+        font-size: 26px;
+    }
+    .promise1-overlay p {
+        font-size: 14px;
+        margin-top: -55px;
+    }
+    .promise1-overlay a {
+        top: 8% !important;
+        line-height: 0px;
+        font-size: 16px;
+    }
+    .promise2-ol-content {
+        transform: translateY(30%);
+        height: 100%;
+        margin-left: 0px;
+    }
+    .promise2-ol-content img {
+        width: 50px;
+        margin-top: -20px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 14px;
+        font-size: 26px;
+        /* left: 5%; */
+    }
+    .promise2-overlay p {
+        font-size: 14px;
+        /* left: 5%; */
+        top: -55px;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: -33px;
+        font-size: 15px;
+        line-height: 0px;
+    }
+    /* promise extra area end  */
+    /* ------------ cafe page --------- */
+    .banner_overlay_content.boct {
+        transform: translateY(0%);
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 0px 0 0 0;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 47px 5px 103px;
+        margin-top: 2px;
+    }
+    .banner_big_arrow2 img {
+        display: none;
+    }
+    .promise_contentp {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .manu_slider_items img {
+        width: 98%;
+    }
+    .call_bnt img {
+        width: 30%;
+        height: 100%;
+    }
+    .call_bnt {
+        margin-top: 60px;
+        margin-bottom: 49px;
+    }
+    .call_bnt button p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    .slide_gel_title p {
+        font-size: 20px;
+        line-height: 0px;
+        padding-top: 45px;
+    }
+    .slide_gel_title h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .gal_slide_arrows i {
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+    .glb {
+        top: 100%;
+        left: 1%;
+    }
+    .grb {
+        top: 100%;
+        left: 83%;
+    }
+     /* catering page ------------------- */
+     .banner_overlay_content.boct2 {
+        transform: translateY(0%);
+        text-align: center;
+    }
+     .banner_overlay_content.boct .a3 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 47px 12px 38px;
+        margin-top: 23px;
+    }
+    .ser_icons1 {
+        padding-top: 50px;
+    }
+    .ser_icons1 p {
+        font-size: 28px;
+        line-height: 0px;
+    }
+    #manu_area_manu {
+        padding-bottom: 0px;
+    }
+    .manu_title p {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .manu_title h2 {
+        font-size: 30px;
+        line-height: 59px;
+    }
+    .manu_title .mtp {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .model_area .nav-pills .nav-link.active {
+        padding: 2px;
+    }
+    .model_area .nav-link {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .model_area {
+        text-align: center;
+        margin-left: 25%;
+    }
+    .model_img1 {
+        left: -79%;
+    }
+    .manu_overley i {
+        transform: translateY(300px);
+    }
+    .download_icon {
+       
+        margin-top: 10px;
+    }
+    .download_icon a {
+        font-size: 27px;
+        padding: 13px 15px;
+    }
+    .download_icon img {
+        margin-left: 40%;
+        margin-top: 34px;
+        width: 21%;
+    }
+    .gal_slide_arrows i {
+        padding: 11px 14px;
+    }
+    
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .footer_top_bg {
+        position: absolute;
+        top: -16%;
+        width: 100%;
+    }
+    .row2 {
+       left: 0;
+    }
+    .model_area .nav {
+        margin-top: 50px;
+    }
+    .manu_slider_items {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .ser_icons {
+        text-align: center !important;
+        width: 100%;
+    }
+    .ser_icons img{
+        width: 80%;
+        padding-top: 15px;
+    }
+    .ser_icons3  img{
+        padding-top: 50px;
+    }
+    .ser_icons1 {
+        padding-top: 50px;
+        width: 100%;
+    }
+    .ser_icons1 img {
+        width: 80%;
+    }
+    .ser_icons1 p {
+        display: none;
+    }
+    .ser_icons p {
+        display: none;
+    }
+    #serAndDeli_area {
+        padding-bottom: 35px;
+    }
+    /* order page css -----------------  */
+    .catering_breakfast_logo {
+        display: none;
+    }
+    .catering_breakfast_manu2  {
+        display: none !important;
+    }
+    .catering_breakfast_select  {
+        display: none !important;
+    }
+    .catering_breakfast_header_area {
+        height: 87px;
+    }
+    .catering_breakfast_manu a.active {
+        top: 28px;
+        margin-left: 0px;
+    }
+    .catering_breakfast_manu a {
+        top: 28px;
+    }
+    .food_order_link {
+        padding-top: 10px;
+        display: flex !important;
+        margin-top: 0px;
+        position: fixed;
+        width: 100%;
+        bottom: 10px;
+        justify-content: center;
+        left: 0;
+    }
+    .food_order_link a {
+        border: 0px solid #1B1A19;
+        font-size: 17px;
+        background-color: #8EC39B;
+        width: 25%;
+    }
+    .small_btn1 {
+        padding-bottom: 150px;
+        margin-left: 80px;
+    }
+    .arrow_left_btn {
+        margin-top: -204px;
+    }
+    .finger_part2 {
+        padding-bottom: 20px;
+        height: 560px;
+    }
+    .finger_title h2 {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .finger_title img {
+        margin-top: 23px;
+        padding-left: 115px;
+        width: 36%;
+    }
+    .option_header_select .form-check-input {
+        margin-left: 0px;
+    }
+    .list_line  {
+        justify-content: center;
+    }
+    .food-last-list {
+        margin-left: 0px;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 22px;
+    }
+    .list_line span {
+        padding-top: 5px;
+    }
+      /* catering tea ---------------- */
+      .food_last_area {
+        margin-top: 98px !important;
+    }
+    .big_btn_o {
+        width: 40%;
+        margin-left: 24%;
+        margin-top: -50px;
+    }
+    .big_btn_o a {
+        font-size: 20px;
+        padding: 18px 5%;
+    }
+    .small_btn_o {
+        margin-left: 61%;
+        /* margin-bottom: 58px; */
+        margin-top: -52px;
+        /* width: 64%; */
+    }
+    .backAndLinkBtn {
+        margin-top: 10px;
+        margin-bottom: 138px;
+    }
+    .small_btn_o a {
+        font-size: 16px !important;
+        padding: 18px 10px;
+    }
+    .p_kom15 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /* catering tea addons */
+    .ulta h2 {
+        position: relative;
+        transform: rotate(0deg);
+        top: 0px;
+        left: 40%;
+        padding-top: 40px;
+    }
+    .list_suru {
+        margin-top: 15px !important;
+        margin-left: 0px;
+    }
+    .list_title_icon  {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+    
+    /* catering dinner  */
+.dinner_title {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.d_icon_top  {
+	display: none !important;
+}
+.d_title2 {
+	left: 0%;
+}
+.d_title2 h2 {
+	font-size: 23px;
+	width: 100%;
+}
+.d_title h2 {
+	font-size: 28px;
+	padding-right: 0px;
+	width: 80%;
+}
+.dinner_top_icon {
+    display: none !important;
+}
+.food_order_link a.active {
+	background: #8EC39B;
+	color: #fff;
+}
+/* catering dinner addons  */
+.dinner_addons_card1 {
+	width: 95%;
+}
+.dinner_card_one {
+	width: 95%;
+	margin-left: 5px;
+}
+.list_title_one {
+	margin-top: 66px;
+	justify-content: center;
+}
+.ulta  {
+	text-align: center;
+}
+.ulta h2 {
+	position: relative;
+	transform: rotate(0deg);
+	top: 0px;
+	left: 0%;
+	padding-top: 40px;
+}
+.flae_title  {
+	justify-content: center;
+}
+/* catering dinner addons  */
+.dinner_addons_card1 {
+	margin-top: 40px;
+	margin-left: 0px;
+	width: 100%;
+	justify-content: center;
+}
+.dinner_first_icon img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.dinner_first_icon p {
+	font-size: 16px;
+	line-height: 17px;
+	padding-top: 0px;
+}
+.dinner_first_icon {
+	margin-right: 20px;
+}
+.dinner_card_one {
+	margin-top: 30px;
+	margin-left: 12px;
+}
+.dinner_addons_title h2 {
+	font-size: 20px;
+	padding: 0px 147px 0px 30px;
+}
+.dinner_addons_title span {
+	font-size: 21px;
+	padding: 7px 0px;
+}
+.dinner_addons_title .form-check-input[type="checkbox"] {
+	margin-top: 13px;
+}
+.dinner_addons_list_items p {
+	font-size: 14px;
+}
+.dinner_addons_list_items .form-check-input[type="checkbox"] {
+	width: 15px;
+	height: 16px;
+}
+.dinner_addons_title {
+	background: rgba(27, 26, 25, 0.05);
+	justify-content: center;
+}
+.catering_breakfast_manu {
+	margin-top: 0px;
+}
+/* review area css here  */
+.review_card_maddile_main {
+	margin-top: 40px;
+	margin-left: 0px;
+}
+.review_header2 h2 {
+	font-size: 26px;
+}
+.arrow_left_btn_o {
+	margin-top: 40px;
+}
+/* details area css here  */
+.nai800 {
+	display: none;
+}
+.center800{
+    justify-content: center;
+}
+.details_form_card {
+	padding: 33px 14px 42px 15px;
+	width: 100%;
+	margin-left: 0%;
+    margin-top: 40px;
+}
+.pickunAndDeli_area {
+	margin-right: 0px;
+	margin-top: 40px;
+}
+.pickup {
+	margin-left: 0px;
+}
+.dateAndTime {
+	width: 100%;
+}
+.giz-calendar .giz-calendar-content button {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.giz-calendar button {
+	padding: 0;
+}
+.giz-calendar .giz-calendar-content .giz-calendar-weekday {
+	width: 105%;
+}
+.calender_view ul li .nav-link {
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+}
+.calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+}
+.dateAndTime span {
+	font-size: 16px;
+}
+/* confirm area css here  */
+.confirmtion_title {
+	padding-left: 45px;
+}
+.confirmtion_title h2 {
+	margin-top: 80px;
+}
+.con_card_area {
+	padding: 24px;
+	margin-top: 45px;
+	width: 95%;
+	margin-left: 13px;
+}
+.con_title3 {
+	width: 190%;
+	margin-left: -46px;
+}
+.con_title4 {
+	margin-left: -5px;
+	margin-top: 8px;
+}
+.confirm_last {
+	width: 275%;
+	text-align: start;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.con_title2 h2 {
+	font-size: 24px;
+	margin-left: -50px;
+}
+.catering_breakfast_manu .activeLeft {
+	background-color: #000;
+	top: 28px;
+}
+.about-bg-img {
+	margin-left: -16%;
+	width: 196%;
+}
+}
+/* ------------------------------------------- 800 to 991.99 ----------------------------- */
+@media (min-width: 800px) and (max-width: 991.99px) { 
+    .banner_overlay_content {
+        padding-top: 200px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .navbar-toggler i {
+        font-size: 30px;
+        padding: 20px;
+        color: #fff;
+    }
+    .navbar-brand img {
+        width: 80%;
+        top: -32px;
+        left: 10px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 22px 32px 22px 32px;
+        margin-left: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .nav-link {
+        padding: 20px 0px;
+        margin-left: 10px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_overlay_content h1 {
+        font-size: 33px;
+        width: 80%;
+        border: 3px solid #FEFEFF;
+        padding: 0px 0px;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+    .banner_big_arrow {
+        padding-top: 13%;
+    }
+    .banner_big_arrow img {
+        display: none;
+    }
+    .promise_content h3 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+    .promise_content h2 {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 33%;
+        height: 15%;
+        top: 49px;
+        width: 33%;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 36%;
+        width: 28%;
+        height: 14%;
+    }
+   
+    .promise_card1 {
+        background-image: none;
+    }
+    .promise_card_p {
+        background-image: none;
+    }
+    .promise_card2 {
+        width: 98%;
+        text-align: start;
+        position: relative;
+    }
+                /* wwww--------------- */
+    .imagess img.vv1 {             
+        width: 100%;
+    }
+    .imagess2 {
+        top: 2px;
+    }
+    .imagess2 img.vv2 {
+        width: 100%;
+        /* height: 320px; */
+        margin-left: -2%;
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+        height: 100%;
+    }
+    /* wwwwwwwwwww_--------------------------------- */
+    .promise1-ol-content img {
+        width: 50px;
+        margin-top: -35px;
+    }
+    .promise1-overlay h3 {
+        padding-top: 14px;
+        font-size: 26px;
+    }
+    .promise1-overlay p {
+        font-size: 16px;
+        margin-top: -55px;
+    }
+    .promise1-overlay a {
+        top: 8% !important;
+        line-height: 0px;
+        font-size: 18px;
+    }
+    .promise2-ol-content {
+        transform: translateY(30%);
+        /* height: 100%; */
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+    .promise2-ol-content img {
+        width: 50px;
+        margin-top: -35px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 14px;
+        font-size: 26px;
+        /* left: 5%; */
+    }
+    .promise2-overlay p {
+        font-size: 16px;
+        /* left: 5%; */
+        top: -55px;
+    }
+    .promise2-overlay a {
+        left: 5%;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: 1%;
+        line-height: 130px;
+    }
+    .promise2-overlay a {
+        left: 5%;
+        top: -18px;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .ourCafe_title p {
+        font-size: 28px;
+        padding-top: 60px;
+    }
+    .ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .ourcafe_content {
+        padding-bottom: 100px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 180px;
+        font-size: 30px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .ourcafe_content a {
+        font-size: 20px;
+        padding: 18px 38px;
+    }
+    .catering_content {
+        padding-bottom: 100px;
+    }
+    .catering_title p {
+        font-size: 28px;
+        padding-top: 82px;
+    }
+    .catering_title h2 {
+        font-size: 40px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .catering_content h2 {
+        margin-top: 180px;
+        font-size: 30px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .catering_content a {
+        font-size: 20px;
+        padding: 18px 38px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 15px;
+    }
+    .about_content .about-p2 {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+    .about_content .about-p3 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    .about_content p {
+        padding-top: 70px;
+        font-size: 28px;
+    }
+    .about-img img {
+        width: 100%;
+        top: 26%;
+        left: -17%;
+        text-align: center;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_icon  {
+        justify-content: center;
+        /* padding-top: -19px; */
+        height: 100px;
+        margin-top: -74px;
+        padding-bottom: 42px;
+    }
+    .gallery_hover i {
+        font-size: 50px;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 24px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 100px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+    .about-bg {
+        position: relative;
+        top: 10%;
+        left: 0%;
+        width: 55%;
+        margin-left: 34%;
+        top: -40px;
+    }
+    .about-bg-img {
+        width: 74%;
+        margin-left: 220px;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 7px;
+        width: 93%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+    .qur_img {
+        width: 121px;
+        height: 90px;
+    }
+    .review_silder {
+        padding-top: 50px;
+    }
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+        right: 60px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 {
+        text-align: center;
+    }
+    .contect_part1 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .contect_part11 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part12 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part2 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 600px;
+        height: 52px;
+        font-size: 20px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(-13%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_part4 {
+        padding-top: 0px;
+    }
+    .footer_img {
+        height: 128px;
+        padding-top: 0;
+    }
+    .back_up_bnt {
+        right: 19px;
+        top: -25%;
+        width: 90px;
+        height: 101px;
+    }
+    .footer_top_bg img {
+        width: 100%;
+        display: none;
+    }
+    
+    /* ------------ cafe page --------- */
+    .banner_overlay_content.boct {
+        transform: translateY(0%);
+        text-align: center;
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 20px 0 0 0;
+        font-size: 40px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 16px;
+        line-height: 60px;
+        padding: 10px 47px 5px 200px;
+        margin-top: 2px;
+    }
+    .banner_big_arrow2 img {
+        display: none;
+    }
+    .promise_contentp {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .manu_slider_items img {
+        width: 98%;
+    }
+    .call_bnt img {
+        width: 30%;
+        height: 100%;
+    }
+    .call_bnt {
+        margin-top: 60px;
+        margin-bottom: 49px;
+    }
+    .call_bnt button p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    .slide_gel_title p {
+        font-size: 20px;
+        line-height: 0px;
+        padding-top: 45px;
+    }
+    .slide_gel_title h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .gal_slide_arrows i {
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+    .glb {
+        top: 100%;
+        left: 1%;
+    }
+    .grb {
+        top: 100%;
+    }.grb {
+        top: 100%;
+        left: 83%;
+    }
+    .manu_slider_items {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* catering page ------------------- */
+    .banner_overlay_content.boct2 {
+        transform: translateY(0%);
+        text-align: center;
+    }
+    .banner_overlay_content.boct .a3 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 30px 47px 25px 160px;
+        margin-top: 23px;
+    }
+    .ser_icons {
+        text-align: center !important;
+        width: 100%;
+    }
+    .ser_icons img{
+        width: 80%;
+        padding-top: 15px;
+    }
+    .ser_icons3  img{
+        padding-top: 50px;
+    }
+    .ser_icons1 {
+        padding-top: 50px;
+        width: 100%;
+    }
+    .ser_icons1 img {
+        width: 80%;
+    }
+    .ser_icons1 p {
+        display: none;
+    }
+    .ser_icons p {
+        display: none;
+    }
+    #serAndDeli_area {
+        padding-bottom: 35px;
+    }
+    #manu_area_manu {
+        padding-bottom: 0px;
+    }
+    .manu_title p {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .manu_title h2 {
+        font-size: 30px;
+        line-height: 59px;
+    }
+    .manu_title .mtp {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .model_area .nav-pills .nav-link.active {
+        padding: 2px;
+    }
+    .model_area .nav-link {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .model_area {
+        text-align: center;
+        margin-left: 33%;
+    }
+    .model_img1 {
+        left: -79%;
+    }
+    .manu_overley i {
+        transform: translateY(455%);
+    }
+    .download_icon {
+        top: -11%;
+        left: 29%;
+        margin-top: 0px;
+    }
+    .download_icon a {
+        font-size: 27px;
+        padding: 13px 15px;
+    }
+    .download_icon img {
+        margin-left: 40%;
+        margin-top: 34px;
+        width: 21%;
+    }
+    .gal_slide_arrows i {
+        padding: 11px 14px;
+    }
+    
+    #slide_gal_area {
+        padding-bottom: 100px;
+    }
+    .row2 {
+        left: 0%;
+    }
+    .model_area .nav {
+        margin-top: 35px;
+    }
+    .contect_part1Img {
+        padding-bottom: 90px;
+    }
+    /* order page css -----------------  */
+    .catering_breakfast_logo {
+        display: none;
+    }
+    .catering_breakfast_manu2  {
+        display: none !important;
+    }
+    .catering_breakfast_select  {
+        display: none !important;
+    }
+    .catering_breakfast_header_area {
+        height: 87px;
+    }
+    .catering_breakfast_manu a.active {
+        top: 28px;
+        margin-left: 0px;
+    }
+    .catering_breakfast_manu a {
+        top: 28px;
+    }
+    .food_order_link {
+        padding-top: 10px;
+        display: flex !important;
+        margin-top: 0px;
+        position: fixed;
+        width: 100%;
+        bottom: 10px;
+        background-color: #8EC39B;
+        margin-left: -15px;
+    }
+    .food_order_link a {
+        border: 0px solid #1B1A19;
+        background-color: #8EC39B;
+    }
+    .food_order_link a.active {
+        background: #8EC39B;
+        color: #fff;
+    }
+    .small_btn1 {
+        padding-bottom: 100px;
+    }
+    .arrow_left_btn {
+        margin-top: -163px;
+    }
+    .finger_part2 {
+        padding-bottom: 20px;
+        height: 560px;
+    }
+    /* catering tea ---------------- */
+    .food_last_area {
+        margin-top: 98px !important;
+    }
+    .big_btn_o {
+        width: 30%;
+        margin-left: 24%;
+        margin-top: -50px;
+    }
+    .big_btn_o a {
+        font-size: 20px;
+        padding: 18px 5%;
+    }
+    .small_btn_o  {
+        margin-left: 50%;
+        /* margin-bottom: 58px; */
+        margin-top: -50px;
+    }
+    .backAndLinkBtn {
+        margin-top: 40px;
+        margin-bottom: 115px;
+    }
+    .small_btn_o a {
+        font-size: 18px;
+}
+.ulta h2 {
+	position: relative;
+	transform: rotate(0deg);
+	top: 0px;
+	left: 40%;
+	padding-top: 40px;
+}
+.list_suru {
+	margin-top: 15px !important;
+}
+/* catering lunch  */
+.p_kom15 {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+/* catering lunch addons  */
+.list_title_icon1  {
+	margin-left: 35%;
+}
+.list_title_icon p {
+	font-size: 25px;
+}
+.list12_title {
+	margin-top: 11px;
+}
+.list_title_one {
+	margin-top: 26px;
+}
+/* catering dinner  */
+.dinner_title {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.d_icon_top  {
+	display: none !important;
+}
+.d_title2 {
+	left: 0%;
+}
+.d_title2 h2 {
+	font-size: 26px;
+}
+.d_title h2 {
+	font-size: 35px;
+	margin-right: 80px;
+}
+
+/* review area css here  */
+.review_card_maddile_main {
+	margin-top: 40px;
+	margin-left: 0px;
+}
+.review_header2 h2 {
+	font-size: 26px;
+}
+/* details area css here  */
+.nai800 {
+	display: none;
+}
+.center800{
+    justify-content: center;
+}
+.details_form_card {
+	margin-top: 90px;
+}
+.pickunAndDeli_area {
+	margin-right: 0px;
+}
+.pickup {
+	margin-left: 21px;
+}
+.dateAndTime {
+	width: 100%;
+}
+/* confirm area css here  */
+.confirmtion_title {
+	padding-left: 45px;
+}
+.confirmtion_title h2 {
+	margin-top: 80px;
+}
+.con_card_area {
+	padding: 24px;
+	margin-top: 45px;
+	width: 95%;
+	margin-left: 13px;
+}
+.con_title3  {
+	width: 130%;
+	margin-left: -25px;
+}
+.con_title4 {
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.confirm_last {
+	width: 275%;
+	text-align: start;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.catering_breakfast_manu .activeLeft {
+	background-color: #000;
+	top: 28px;
+}
+.imagess {
+	position: relative;
+	left: -10%;
+	top: 0px;
+	width: 106%;
+}
+.imagess2 {
+	top: 0px;
+	width: 147%;
+	margin-left: -20%;
+}
+
+}
+/* ------------------------------------------- 992 to 1299.99 ----------------------------- */
+@media (min-width: 992px) and (max-width: 1299.99px) { 
+    .banner_overlay_content {
+        padding-top: 220px;
+    }
+    .navbar-brand img {
+        width: 90%;
+        top: -35px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 22px 32px 22px 32px;
+        margin-left: 20px;
+    }
+    .nav-link {
+        padding: 20px 0px;
+        margin-left: 10px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_overlay_content h1 {
+        font-size: 35px;
+        width: 804px;
+        border: 3px solid #FEFEFF;
+        padding: 10px 0;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 20px;
+        padding: 16px 45px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 20px;
+        padding: 16px 45px;
+    }
+    .banner_big_arrow {
+        padding-top: 9%;
+        margin-top: 4%;
+    }
+    .banner_big_arrow img {
+        top: -100% !important;
+        width: 14%;
+    }
+    .promise_content h3 {
+        font-size: 28px;
+        padding-top: 70px;
+    }
+    .promise_content h2 {
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .top_review1 p {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+    .top_review1 p::before {
+        left: 29px;
+        height: 15%;
+        top: 49px;
+    }
+    .top_review1 p::after {
+        top: 79px;
+        left: 30px;
+        width: 76%;
+        height: 14%;
+    }
+    .promise_card1 {
+        right: 0;
+    }
+    .imagess img.vv1 {
+        position: relative;
+        /* left: 18%; */
+        width: 100%;
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+    }
+    .promise1-overlay h3 {
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .promise1-overlay p {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .promise_card1 {
+        width: 100%;
+        background: none;
+    }
+    .promise1-overlay a {
+        left: 0px;
+        top: 0px;
+    }
+    .imagess2 img.vv2 {
+        width: 146%;
+        left: -27%;
+        margin-left: -20%;
+    }
+    .promise2-ol-content {
+        transform: translateY(34%);
+        margin-left: 3px;
+    }
+    .promise_card_p {
+        background: none;
+    }
+    .promise2-overlay h3 {
+        padding-top: 18PX;
+        padding-left: 0px;
+        padding-bottom: 0PX;
+    }
+    .promise2-overlay p {
+        font-size: 18px;
+    }
+    .promise2-overlay a {
+        top: 40px;
+    }
+    .ourCafe_title p {
+        font-size: 28px;
+        padding-top: 60px;
+    }
+    .ourCafe_title h2 {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .ourcafe_content {
+        padding-bottom: 100px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 180px;
+        font-size: 30px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .ourcafe_content a {
+        font-size: 20px;
+        padding: 18px 38px;
+    }
+    .catering_content {
+        padding-bottom: 100px;
+    }
+    .catering_title p {
+        font-size: 28px;
+        padding-top: 82px;
+    }
+    .catering_title h2 {
+        font-size: 40px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .catering_content h2 {
+        margin-top: 180px;
+        font-size: 30px;
+        border: 4px solid #FEFEFF;
+        padding: 8px 12px;
+    }
+    .catering_content a {
+        font-size: 20px;
+        padding: 18px 38px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 15px;
+    }
+    .about_content .about-p2 {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+    .about_content .about-p3 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    .about_content p {
+        padding-top: 70px;
+        font-size: 28px;
+    }
+    .about-bg img {
+        width: 100%;
+    }
+    .gallery_title p {
+        font-size: 22px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_hover i {
+        font-size: 50px;
+    }
+    .gallery_title h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .gallery_icon i {
+        padding-top: 136px;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 24px;
+        padding-top: 118px;
+        padding-left: 36px;
+        line-height: 24px;
+    }
+    .gallery_part1 {
+        padding-top: 40px;
+    }
+    .about_content_lrt {
+        left: 10px;
+    }
+    .about-bg {
+        left: 0%;
+        width: 68%;
+        margin-left: 40%;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 7px;
+        width: 93%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .footer_part5 a {
+        padding: 32px 45px;
+    }
+    .praise_title h2 {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+    .qur_img {
+        width: 121px;
+        height: 90px;
+    }
+    .review_silder {
+        padding-top: 50px;
+    }
+    .rleft {
+        font-size: 20px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 20px;
+        top: 30px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .contect_part11 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part12 p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contect_part2 h2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .contect_part2_title_two p {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 380px;
+        height: 41px;
+        font-size: 20px;
+    }
+    .s_btn {
+        margin-top: 22px !important;
+        line-height: 35px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part1 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part2 a {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .footer_img img {
+        width: 80px;
+    }
+    .footer_part4 a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_part4 i {
+        font-size: 24px;
+        margin-right: 30px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(120%);
+        padding: 14px 2px 5px 16px;
+    }
+    .footer_top_bg img {
+        width: 100%;
+        margin-top: 14%;
+    }
+    /* ------------------- cafe page ---------------- */
+    
+    .banner_big_arrow2 img {
+        position: absolute;
+        left: 43%;
+        width: 16%;
+        top: -121px;
+    }
+    .manu_slider_items img {
+        width: 100%;
+    }
+    .call_bnt {
+        right: 31%;
+    }
+    .call_bnt button p {
+        line-height: 41px;
+    }
+    .slide_gel_title h2 {
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+    /* catering --- page ---------------------  */
+    .model_area .nav-link {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 15px;
+    }
+    .model_area .nav-pills .nav-link.active {
+        padding: 15px;
+    }
+    .model_img1 {
+        left: -186%;
+    }
+    .manu_overley i {
+        transform: translateY(390%);
+    }
+    .download_icon {
+        left: -308%;
+        top: 30%;
+    }
+    .download_icon img {
+        margin-left: 26%;
+    }
+    .download_icon a {
+        font-size: 22px;
+        line-height: 25px;
+        width: 76%;
+        padding: 24px 0px;
+    }
+    .grb {
+        left: 83%;
+    }
+    #slide_gal_area {
+        padding-bottom: 120px;
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 45px 0 0px 0;
+        line-height: 15px;
+    }
+    .banner_overlay_content.boct2 {
+        padding-top: 200px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 30px;
+        padding: 23px 0 23px 140px;
+    }
+    .row2 {
+        left: 0px;
+    }
+    .back_up_bnt {
+        width: 93px;
+        height: 115px;
+    }
+     /* catering breack fast madia css here  */
+     .catering_breakfast_logo img {
+        width: 100%;
+        left: 12px;
+        top: 16px;
+    }
+     .card_end_icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .food_order_link a {
+        font-size: 16px;
+    }
+    .list_line p {
+        padding: 0 0px 0 0;
+    }
+    .option_header_select .form-check-input {
+        margin-left: 22px;
+    }
+    .small_btn1 {
+        width: 131%;
+        margin: 0 0 0 -30px;
+    }
+    .small_btn1 a {
+        padding: 15px 12px;
+        font-size: 16px;
+        /* margin-top: -82px; */
+    }
+    .catering_breakfast_manu a.active {
+        margin-left: 0px;
+    }
+    .catering_breakfast_manu .cbp::before {
+        display: none;
+    }
+    .catering_breakfast_manu a {
+        margin-left: 10px;
+    }
+    .catering_breakfast_manu2 img {
+        height: 100%;
+    }
+    .catering_breakfast_manu2 {
+        margin-left: -80px;
+        margin-top: 0px;
+    }
+    .catering_breakfast_select {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .finger_title h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 10px;
+        padding-top: 55px;
+    }
+   
+    .finger_title img {
+        margin-top: 37px;
+        padding-left: 153px;
+        width: 58%;
+        height: 60%;
+        margin-right: 10px;
+    }
+    .finger_title img.camuc {
+        margin-top: 37px;
+        margin-bottom: 14px;
+    }
+    .option_card_title h2 {
+        font-size: 20px;
+        padding: 18px 0px 10px 0px;
+        margin-left: 10px;
+    }
+    .model_area_nav {
+        display: none;
+    }
+    .food_title h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 59px;
+        height: 15px;
+        margin-right: 4px;
+    }
+    .card_list ul li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .catering_breakfast_header_area {
+        height: 116px;
+    }
+    .catering_breakfast_manu2 img {
+        padding-top: 28px;
+    }
+    .catering_breakfast_manu2 p {
+        margin-top: 23px;
+    }
+    .catering_breakfast_manu a {
+        top: 33px;
+    }
+    .catering_breakfast_manu a.active {
+        top: 33px;
+    }
+    .catering_breakfast_select span {
+        margin-top: 36px;
+    }
+    .form-group {
+        padding-top: 33px;
+    }
+    .food_last_area {
+        margin-top: 10px;
+    }
+    .food-last-list {
+        margin-left: 10px;
+    }
+    .option_header_select .form-check-input {
+        margin-top: 30px;
+    }
+    .flae_title h2 {
+        font-size: 27px;
+    }
+    .flae_list .list_line .form-check-input[type="checkbox"] {
+        width: 40px;
+        height: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /* catering- tea ---------------- */
+    .big_btn_o a {
+        font-size: 24px;
+        padding: 18px 20%;
+    }
+    .small_btn_o a {
+        font-size: 18px;
+        padding: 17px 5px;
+        margin-left: -78px;
+    }
+    /* catering tea addons  */
+    .list_title_icon  {
+        margin-right: 5px;
+        margin-left: 135px;
+    }
+    /* catering lunch addons */
+    .gggg  {
+        margin-left: -52px;
+    }
+    /* catering dinner  */
+    .dinner_top_icon {
+        margin-top: 80px;
+        margin-left: 109%;
+        margin-bottom: 200px;
+    }
+    .ul_list1 ul li {
+        font-size: 16px;
+    }
+    /* catering dinner addons  */
+    .dinner_card_one {
+        width: 105%;
+    }
+    .dinner_addons_title h2 {
+        font-size: 25px;
+        padding: 26px 43px 26px 6px;
+    }
+    .diiner_addons_list111 {
+        margin-left: 22px;
+    }
+    .dinner_first_icon112  {
+        margin-left: 170px !important;
+    }
+    .catering_breakfast_manu {
+        margin-top: 10px;
+    }
+
+    /* review area css here  */
+    .review_card_maddile_main {
+        margin-left: -150px;
+        width: 120%;
+    }
+    .review_header2 h2 {
+        font-size: 24px;
+    }
+    .review_link a {
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+    .review_last_content {
+        padding: 10px;
+    }
+      /* details page css here  */
+      .details_form_card {
+        padding: 96px 61px 137px 15px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .details_form_card form input {
+        width: 115%;
+    }
+    .pickup {
+        margin-left: -10px;
+    }
+    #Street {
+        width: 100%;
+    }
+    #Level {
+        width: 100%;
+    }
+    #Postcode {
+        width: 50%;
+    }
+    #Auckland {
+        width: 50%;
+    }
+    .calender_view ul li .nav-link {
+        font-size: 20px;
+        width: 150px;
+    }
+    .calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        font-size: 20px;
+        width: 150px;
+    }
+    .giz-calendar .giz-calendar-content button {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 1.4rem;
+    }
+    .giz-calendar button {
+        padding: -0rem 0.8rem !important;
+    }
+    .deli_content {
+        padding-right: 22px;
+    }
+    main .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .dateAndTime select {
+        width: 62px;
+    }
+    .pickunAndDeli_area {
+        margin-right: 30px;
+    }
+    .dateAndTime {
+        width: 100%;
+    }
+    /* confirm area css here  */
+    .con_card_area {
+        padding: 50px 61px 50px 15px;
+        margin-left: -200px;
+        width: 80%;
+    }
+    .con_title2 h2 {
+        font-size: 26px;
+        margin-left: -46px;
+    }
+    .con_title3  {
+        width: 130%;
+    }
+    .small_btn_o a {
+        font-size: 18px !important;
+        margin-left: -100px;
+    }
+    .confirm_last {
+        width: 120%;
+        margin-left: 10px;
+    }
+    .con_title4 {
+        margin-left: 30px;
+    }
+    .option_card {
+        margin: 0 5px 20px 5px;
+    }
+    .catering_breakfast_manu .activeLeft {
+        background-color: #000;
+        margin-left: 16px;
+        top: 33px;
+    }
+}
+/* --------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1100px){
+    .banner_big_arrow {
+        padding-top: 4%;
+        margin-top: 2%;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+}
+/* ------------------------------------------- 1300 to 1499.99 ----------------------------- */
+@media (min-width: 1300px) and (max-width: 1499.99px) { 
+    
+    .navbar-brand img {
+        width: 100%;
+        top: -35px;
+    }
+    .navbar-collapse .header_btn {
+        padding: 31px 50px 31px 50px;
+    }
+    .nav-link {
+        padding: 31px 0px;
+    }
+    .banner_slider_items img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_overlay_content {
+        padding-top: 250px;
+    }
+    .banner_overlay_content h1 {
+        font-size: 40px;
+        width: 862px;
+        border: 4px solid #FEFEFF;
+        padding: 20px 0;
+    }
+    .banner_overlay_content .a1 {
+        font-size: 22px;
+        padding: 20px 50px;
+    }
+    .banner_overlay_content .a2 {
+        font-size: 22px;
+        padding: 20px 50px;
+    }
+    .banner_big_arrow img {
+        top: 22% !important;
+        width: 14%;
+    }
+    .promise_content h3 {
+        font-size: 30px;
+        padding-top: 80px;
+    }
+    .promise_content h2 {
+        font-size: 45px;
+    }
+    .imagess2 img.vv2 {
+        width: 100%;
+        position: relative;
+        left: -22px;
+    }
+    .top_review1 img {
+        padding-top: 40px;
+    }
+    .top_review1 p::before {
+        left: 37px;
+        height: 16%;
+    }
+    .top_review1 p::after {
+        top: 86px;
+        left: 54px;
+        width: 66%;
+        height: 14%;
+    }
+    .promise_card1 img.vv1 {
+        width: 100%;
+        left: 22%;
+        position: relative;
+    }
+    .promise1-overlay {
+        left: 22%;
+        top: 36px;
+    }
+    .imagess2 {
+        width: 102%;
+    }
+    .promise_card_p {
+        width: 100%;
+        margin-left: -50px;
+    }
+    .promise1-ol-content {
+        transform: translateY(30%);
+    }
+    .promise1-overlay h3 {
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-bottom: 25px;
+    }
+    .promise2-overlay {
+        left: -20px;
+        text-align: center;
+        top: 50px;
+    }
+    .promise1-overlay p {
+        font-size: 22px;
+        padding-left: 0px;
+    }
+    .promise1-overlay a {
+        left: 0px;
+        top: 29px;
+    }
+    .promise2-ol-content {
+        transform: translateY(34%);
+        margin-left: 0px;
+    }
+    .promise2-overlay h3 {
+        padding-top: 35px;
+        padding-left: 0px;
+        padding-bottom: 25px;
+    }
+    .promise2-overlay p {
+        font-size: 22px;
+    }
+    .promise2-overlay a {
+        top: 29px;
+    }
+    .promise_card1 {
+        width: 100%;
+        margin-left: 40px;
+    }
+    .ourCafe_title p {
+        font-size: 30px;
+        padding-top: 75px;
+    }
+    .ourCafe_title h2 {
+        font-size: 45px;;
+        padding-top: 0px;
+        padding-bottom: 46px;
+    }
+    .ourcafe_content h2 {
+        margin-top: 230px;
+        font-size: 40px;
+        border: 4px solid #FEFEFF;
+        padding: 14px 12px;
+    }
+    .ourcafe_content a {
+        font-size: 24px;
+        padding: 21px 41px;
+    }
+    .catering_title p {
+        font-size: 30px;
+        padding-top: 90px;
+    }
+    .catering_title h2 {
+        font-size: 50px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .catering_content h2 {
+        margin-top: 230px;
+        font-size: 40px;
+        border: 4px solid #FEFEFF;
+        padding: 14px 14px;
+    }
+    .catering_content a {
+        font-size: 24px;
+        padding: 21px 41px;
+    }
+    .about_content p {
+        font-size: 30px;
+    }
+    .about_content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 20px;
+    }
+    .about_content .about-p2 {
+        font-size: 22px;
+        padding-top: 50px;
+    }
+    .about_content .about-p3 {
+        font-size: 40px;;
+        padding-bottom: 80px;
+    }
+    .about_content p {
+        padding-top: 70px;
+    }
+    .about-bg img {
+        width: 100%;
+    }
+    .gallery_title p {
+        font-size: 30px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .gallery_title h2 {
+        font-size: 40px;
+    }
+    .gallery_icon i {
+        padding-top: 157px;
+        font-size: 40px;
+        padding-left: 25px;
+    }
+    .gallery_icon a {
+        font-size: 30px;
+        padding-top: 105px;
+        padding-left: 36px;
+    }
+    .gallery_part1 {
+        padding-top: 40px;
+    }
+    .about_content_lrt {
+        left: -30px;
+    }
+    .about-bg {
+        left: 53%;
+        empty-cells: 60%;
+        width: 67%;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 12px;
+        width: 93%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .footer_part5 a {
+        padding: 32px 45px;
+    }
+    .praise_title h2 {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    .qur_img {
+        width: 131px;
+        height: 100px;
+    }
+    .rleft {
+        font-size: 30px;
+        top: 30px;
+    }
+    .rright {
+        font-size: 30px;
+        top: 30px;
+    }
+    .review_img_down img {
+        width: 80%;
+    }
+    .contect_part1 h2 {
+        font-size: 40px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .contect_part11 p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .contect_part12 p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .contect_part2 h2 {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    .contect_part2_title_two p {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+    .form {
+        padding-top: 15px;
+    }
+    .form input {
+        width: 450px;
+        height: 49px;
+        font-size: 24px;
+    }
+    .contect_part1Img img {
+        width: 80%;
+    }
+    #footer_area {
+        padding-bottom: 45px;
+    }
+    .footer_part5 {
+        height: 80px;
+    }
+    .footer_part5 a {
+        font-size: 20px;
+        transform: translateY(120%);
+        padding: 18px 0px 20px 60px;
+    }
+    .footer_top_bg img {
+        width: 100%;
+        margin-top: 56px;
+    }
+    /* ------------cafe page -------------- */
+   
+    .banner_big_arrow2 {
+        transform: translateY(241%);
+    }
+    .banner_big_arrow2 img {
+        width: 18%;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+    .manu_slider_items img {
+        width: 100%;
+    }
+    .call_bnt {
+        right: 36%;
+    }
+    .call_bnt button p {
+        line-height: 42px;
+    }
+    .glb {
+        left: 2%;
+    }
+    .banner_overlay_content.boct h1 {
+        padding: 26px 0 0 0;
+    }
+    /* ------- catering   page ------------ */
+    .model_img1 {
+        left: -170%;
+    }
+    .download_icon {
+        left: -240%;
+    }
+    .download_icon img { 
+        margin-left: 37%;
+    }
+     /* ------------------- catering breack first ------------- */
+     .catering_breakfast_logo img {
+        top: 78px;
+        left: -10px;
+    }
+    .catering_breakfast_manu a.active2 {
+        margin-left: -17px;
+    }
+    .finger_title h2 {
+        padding-top: 45px;
+        font-size: 26px;
+        /* line-height: 71px; */
+    }
+    .finger_title img {
+        height: 134%;
+        width: 41%;
+        margin-top: 49px;
+        padding-left: 116px;
+    }
+    .food_last_area {
+        margin-top: 21px;
+    }
+    .food_title h2 {
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 46px;
+    }
+    .flae_title h2 {
+        font-size: 23px;
+    }
+    .small_btn1 a {
+        padding: 15px 0px;
+    }
+    .food_last_area_end {
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+    .flae_list .list_line .form-check-input[type="checkbox"] {
+        width: 48px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 38px;
+        line-height: 11px;
+        padding: 63px 0 63px 60px;
+    }
+    /* catering breack fast madia css here  */
+    .card_end_icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .list_line p {
+        padding: 0 0px 0 0;
+    }
+    .option_header_select .form-check-input {
+        margin-left: 50px;
+    }
+    .small_btn1 {
+        width: 131%;
+        margin: 0 0 0 -30px;
+    }
+    .small_btn1 a {
+        padding: 15px 12px;
+    }
+    .model_area_nav {
+        display: none;
+    }
+    /* catering -tea-----------  */
+    .big_btn_o a {
+        font-size: 24px;
+        padding: 18px 28%;
+    }
+    .small_btn_o a {
+        font-size: 18px;
+        padding: 20px 5px;
+    }
+    /* catering tea addons  */
+    .list_title_icon1  {
+        margin-left: 140px;
+    }
+    /* catering dinner area  */
+    .dinner_top_icon {
+        margin-bottom: 250px;
+    }
+    /* catering dinner addons  */
+    .dinner_addons_title h2 {
+        padding: 26px 50px 26px 10px;
+    }
+    .dinner_first_icon112 {
+        margin-left: 140px !important;
+    }
+
+    /* review area css here  */
+    .review_header2 h2 {
+        font-size: 22px;
+    }
+    .review_link a {
+        font-size: 20px;
+        padding: 15px 58px;
+    }
+    
+    /* details page css here  */
+    .details_form_card {
+        padding: 96px 61px 137px 15px;
+    }
+    .details_form_card form input {
+        width: 115%;
+    }
+    .pickup {
+        margin-left: 10px;
+    }
+    #Street {
+        width: 100%;
+    }
+    #Level {
+        width: 100%;
+    }
+    #Postcode {
+        width: 50%;
+    }
+    #Auckland {
+        width: 50%;
+    }
+    .calender_view ul li .nav-link {
+        font-size: 20px;
+        width: 150px;
+    }
+    .calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        font-size: 20px;
+        width: 150px;
+    }
+    .giz-calendar .giz-calendar-content button {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 1.4rem;
+    }
+    .giz-calendar button {
+        padding: -0rem 0.8rem !important;
+    }
+    .deli_content {
+        padding-right: 22px;
+    }
+    /* confirm area css here  */
+    .con_card_area {
+        padding: 50px 61px 50px 15px;
+        margin-left: -133px;
+        width: 76%;
+    }
+    .con_title2 h2 {
+        font-size: 30px !important;
+        margin-left: -72px;
+    }
+    .con_title3  {
+        width: 130%;
+    }
+    .small_btn_o a {
+        font-size: 19px;
+        margin-left: -32px;
+    }
+    .confirm_last {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .active_left {
+        margin-left: -40px !important;
+    }
+    .option_card_title h2 {
+        font-size: 23px;
+        padding: 27px 0px 27px 8px;
+        width: 127%;
+    }
+    .card_header_icon  {
+        margin-left: 10px;
+        width: 111%;
+    }
+    .catering_breakfast_manu .activeLeft {
+        background-color: #000;
+        margin-left: 10px;
+    }
+    
+}
+/* ------------------------------------------- 1500 to 1699.99 ----------------------------- */
+@media (min-width: 1500px) and (max-width: 1699.99px) { 
+    .about_content_lrt {
+        left: -30px;
+    }
+    .gallery_part1 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_part2 {
+        padding: 0 0;
+    }
+    .gallery_part2 img {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .gallery_hover {
+        left: 12px;
+        width: 93%;
+    }
+    .contect_part1Img img {
+        width: 100%;
+    }
+    .footer_part5 a {
+        padding: 32px 45px;
+    }
+    .contect_part1Img {
+        padding-top: 42px;
+        padding-bottom: 90px;
+    }
+    #footer_area {
+        padding-bottom: 30px;
+    }
+    .footer_part1 {
+        padding-top: 30px;
+    }
+    .footer_part2 {
+        padding-top: 30px;
+    }
+    .footer_img {
+        padding-top: 30px;
+    }
+    .footer_part5 a {
+        padding: 20px 0px;
+    }
+    .about-bg {
+        left: 36%;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    .footer_part5 {
+        height: 100px;
+    }
+    .banner_big_arrow img {
+        padding-top: 100px;
+    }
+    /* cafe page ----------  */
+    .manu_slider_items img {
+        width: 100%;
+    }
+    .call_bnt button p {
+        line-height: 45px;
+    }
+    /* ------------------- catering breack first ------------- */
+    .catering_breakfast_logo img {
+        top: 65px;
+    }
+    .catering_breakfast_manu a.active {
+        margin-left: 60px;
+    }
+    .finger_title h2 {
+        padding-top: 84px;
+        font-size: 32px;
+    }
+    .finger_title img {
+        height: 100%;
+    }
+    .food_last_area {
+        margin-top: 21px;
+    }
+    .food_title h2 {
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        width: 46px;
+    }
+    .flae_title h2 {
+        font-size: 23px;
+    }
+    .small_btn1 a {
+        padding: 15px 0px;
+    }
+    .food_last_area_end {
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+    .flae_list .list_line .form-check-input[type="checkbox"] {
+        width: 48px;
+    }
+    .banner_overlay_content.boct a {
+        font-size: 44px;
+        line-height: 40px;
+    }
+
+    /* catering breack fast madia css here  */
+    .card_end_icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .list_line p {
+        padding: 0 0px 0 0;
+    }
+    .model_area_nav {
+        display: none;
+    }
+    .card_end_icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .option_header_select .form-check-input {
+        margin-left: 0px;
+    }
+    /* catering tea  */
+    .big_btn_o a {
+        padding: 18px 28%;
+    }
+    .small_btn_o a {
+        font-size: 20px;
+        padding: 18px 0px;
+    }
+     /* catering tea addons  */
+     .list_title_icon1  {
+        margin-left: 60px;
+    }
+    /* catering dinner area  */
+    .dinner_top_icon {
+        margin-bottom: 200px;
+    }
+    /* catering dinner addons  */
+    .dinner_addons_title h2 {
+        padding: 26px 85px 26px 36px;
+    }
+
+
+    /* review area css here  */
+    .review_link a {
+        font-size: 22px;
+    }
+    .review_header2 h2 {
+        font-size: 26px;
+    }
+    /* details page css here  */
+    .details_form_card {
+        padding: 96px 61px 137px 15px;
+    }
+    .details_form_card form input {
+        width: 115%;
+    }
+    .pickup {
+        margin-left: 10px;
+    }
+    #Street {
+        width: 100%;
+    }
+    #Level {
+        width: 100%;
+    }
+    #Postcode {
+        width: 50%;
+    }
+    #Auckland {
+        width: 50%;
+    }
+    .promise_card2 {
+        width: 93%;
+    }
+    .promise_card_p {
+        width: 95%;
+    }
+    .imagess {
+        left: 5%;
+    }
+    .promise_card1 {
+        margin-left: 5%;
+    }
+    /* confirm area css here  */
+    .con_card_area {
+        padding: 50px 61px 50px 15px;
+        margin-left: -133px;
+        width: 76%;
+    }
+    
+}
+/* ------------------------------------------- 1700 to 1831.98 ----------------------------- */
+@media (min-width: 1700px) and (max-width: 1831.99px) { 
+    .gallery_part1 img {
+        padding: 0px 9px;
+    }
+    .gallery_part2 img {
+        padding: 0 9px;
+    }
+    .gallery_img {
+        position: relative;
+        width: 100%;
+    }
+    .gallery_part2 {
+        margin-top: 20px;
+    }
+    .gallery_hover {
+        left: 10px;
+        width: 95%;
+    }
+    .footer_part5 a {
+        padding: 32px 65px;
+    }
+    .about-bg {
+        position: relative;
+        top: 10%;
+        left: 44%;
+        text-align: end;
+    }
+    .footer_top_bg img {
+        width: 100%;
+    }
+    /* ----------- cater breack fast ---------- */
+    .food_last_area {
+        margin-top: 25px;
+    }
+    .food_last_area_end {
+        margin-top: 0px;
+    }
+    .flae_list {
+        padding-bottom: 5px;
+    }
+    .small_btn1 a {
+        padding: 15px 14px;
+    }
+    .model_area_nav {
+        display: none;
+    }
+    .finger_title h2 {
+        font-size: 40px;
+    }
+    .option_header_select .form-check-input {
+        margin-left: 70px;
+    }
+    .card_end_icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .dinner_top_icon {
+        margin-bottom: 131px;
+    }
+    
+    .dinner_addons_title h2 {
+        padding: 26px 135px 26px 36px;
+    }
+    /* confirm area css here  */
+    .small_btn_o a {
+        font-size: 16px !important;
+        padding: 18px 33px;
+    }
+    .con_title3  {
+        width: 130%;
+    }
+    .imagess {
+        left: 0%;
+    }
+    .promise_card1 {
+        margin-left: 15%;
+    }
+    .promise_card_p {
+        width: 80%;
+        left: 5%;
+    }
+    .imagess2 {
+        left: -5%;
+        position: relative;
+    }
+
+ }
+ @media (min-width: 1832px) { 
+    .model_area_nav {
+        display: none;
+    }
+   
+  }
+ @media (min-width: 300px) and (max-width: 991.99px){
+    .footer_part1 {
+        padding-top: 10px;
+    }
+    .footer_part2 a {
+        line-height: 17px;
+    }
+    .footer_part2 {
+        padding-top: 10px;
+    }
+    #footer_area {
+        padding-bottom: 10px;
+    }
+    .model_area {
+        display: none;
+    }
+    .download_icon img {
+        display: none;
+    }
+    .download_icon a {
+        margin-top: 20px;
+        font-size: 19px;
+        padding: 5px 20px;
+        line-height: h;
+        line-height: 33px;
+        width: 100%;
+    }
+    .model_area_nav {
+        /* display: flex; */
+        background: #8EC39B;
+        margin-top: 12px;
+    }
+ }
+
+ /* order page responsive */
+ @media (min-width: 450px) and (max-width: 577.99px){
+    .catering_breakfast_manu a.active {
+        top: 28px;
+        margin-left: 0px;
+        text-decoration: navajowhite;
+    }
+    .arrow_left_btn img {
+        /* margin-top: 5px; */
+        background: #8EC39B;
+        padding: 10px 20px;
+        border-radius: 36px;
+        width: 91%;
+    }
+    .finger_title h2 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .finger_title img {
+        margin-top: 23px;
+        padding-left: 96px;
+        width: 37%;
+    }
+    .option_card_title h2 {
+        font-size: 18px;
+    }
+    .card_list ul li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .finger_part {
+        margin-left: -12px;
+        height: auto;
+    }
+    .list_line  {
+        justify-content: center;
+    }
+    .food-last-list {
+        margin-left: 0px;
+    }
+    .list_line span {
+        padding-top: 7px;
+        margin-left: 5px;
+    }
+    .flae_list .list_line .form-check-input[type="checkbox"] {
+        margin-left: 0px;
+    }
+    .flae_title  {
+        justify-content: center;
+    }
+    .flae_title h2 {
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    .small_btn1 {
+        padding-bottom: 130px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+/* catering dinner addons  */
+.dinner_addons_card1 {
+	margin-top: 40px;
+	margin-left: 0px;
+	width: 100%;
+	justify-content: center;
+}
+.dinner_first_icon img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.dinner_first_icon p {
+	font-size: 16px;
+	line-height: 17px;
+	padding-top: 0px;
+}
+.dinner_first_icon {
+	margin-right: 20px;
+}
+.dinner_card_one {
+	margin-top: 30px;
+	margin-left: -12px;
+}
+.dinner_addons_title h2 {
+	font-size: 20px;
+	padding: 0px 147px 0px 30px;
+}
+.dinner_addons_title span {
+	font-size: 21px;
+	padding: 7px 0px;
+}
+.dinner_addons_title .form-check-input[type="checkbox"] {
+	margin-top: 13px;
+}
+.dinner_addons_list_items p {
+	font-size: 14px;
+}
+.dinner_addons_list_items .form-check-input[type="checkbox"] {
+	width: 15px;
+	height: 16px;
+}
+.dinner_addons_title {
+	background: rgba(27, 26, 25, 0.05);
+	justify-content: center;
+}
+.catering_breakfast_manu {
+	margin-top: 0px;
+}
+
+ }
+ @media (min-width: 800px) and (max-width: 991.99px){
+    .option_card_title {
+        text-align: start;
+        padding-left: 30px;
+    }
+    .option_header_select {
+        text-align: end;
+        padding-right: 30px;
+    }
+    .list_line  {
+        justify-content: center;
+    }
+    .food-last-list .form-check-input[type="checkbox"] {
+        border-radius: .25em;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .list_line span {
+        padding-top: 5px;
+    }
+    .food-last-list {
+        margin-left: 0px;
+    }
+    .flae_list .list_line .form-check-input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin-top: 0px;
+    }
+    .food_order_link a {
+        border: 0px solid #1B1A19;
+        background-color: #8EC39B;
+        width: 25%;
+    }
+    .flae_title  {
+        justify-content: center;
+    }
+    .dinner_addons_card1 {
+        margin-left: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    .dinner_card_one {
+        margin-left: 12px;
+    }
+    .dinner_addons_title {
+        justify-content: center;
+    }
+    .catering_breakfast_manu {
+        margin-top: 0px;
+    }
+ }

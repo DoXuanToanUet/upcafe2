@@ -1,0 +1,3048 @@
+/* ------ font google family ----  */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&family=Ubuntu:wght@400;700&display=swap');
+/* --------------------------header area css here ------------------------- */
+#imprNoti{
+	width: 100%;
+	height: 50px;
+}
+#header_area{
+    position: relative;
+}
+.navbar-brand {
+	/* position: absolute;
+	top: -8px;
+	left: 60px;
+	width: 13%; */
+}
+.logo {
+	width: 148px;
+    position: relative;
+}
+.navbar-brand img {
+	width: 100%;
+	position: absolute;
+	top: -50px;
+	left: 50px;
+}
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+    background: rgba(27, 26, 25, 0.295);
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-right: -1px !important;
+}
+.nav-link {
+	padding: 26px 0px;
+	color: #fff !important;
+	font-size: 24px;
+	margin-left: 50px;
+	transition: all .3s linear;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #8EC39B !important;
+}
+.navbar-collapse .header_btn {
+	padding: 30px 50px 30px 50px;
+	background: #8EC39B;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 24px;
+	margin-left: 79px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.navbar-collapse .header_btn:hover {
+	color: #000;
+}
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: 0 0 0 0;
+}
+.catering_breakfast_manu  .activeAndLeft{
+	background-color: #000;
+	color: #8EC39B;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	color: #8EC39B;
+	padding: 10px 25px;
+	background-color: #000;
+	position: relative;
+	top: 65px;
+	margin-left: 0px;
+}
+/* -------------------------- banner area css here------------------------- */
+#banner_area{
+    position: relative;
+}
+.banner_slider_items{
+	position: relative;
+}
+.banner_overlay_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 459px;
+	background-color: rgba(0, 0, 0, 0.144);
+}
+.banner_overlay_content h1 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 57px;
+	line-height: 80px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	background: rgba(27, 26, 25, 0.4);
+	border: 6px solid #FEFEFF;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 33px 0px;
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 50px;
+}
+.banner_overlay_content .a1{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+color: #8EC39B;
+text-decoration: none;
+background: #FEFEFF;
+border-radius: 3px;
+padding: 23px 62px 22px 63px;
+margin-right: 44px;
+transition: all .3s linear;
+}
+.banner_overlay_content .a1:hover{
+	background-color: #8EC39B;
+	color: #fff;
+}
+.banner_overlay_content .a2{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 50px;
+	color: #FEFEFF;
+    text-decoration: none;
+	background: #8EC39B;
+border-radius: 3px;
+padding: 23px 62px 22px 63px;
+transition: all .3s linear;
+}
+.banner_overlay_content .a2:hover {
+	color: #fff;
+	background: #000000;
+}
+.banner_big_arrow {
+	margin-top: 9%;
+	justify-content: center;
+	display: flex;
+}
+.banner_big_arrow img {
+	padding-top: 15px;
+}
+/* -------------------------- promise area css here------------------------- */
+.promise_content h3{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+text-align: center;
+color: #1B1A19;
+padding-top: 108px;
+}
+.promise_content h2{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 17px;
+margin-bottom: 92px;
+}
+.top_review1{
+    text-align: center;
+}
+.top_review1 img{
+    padding-top: 73px;
+}
+.top_review1 p{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+padding-top: 39px;
+position: relative;
+z-index: 9999;
+}
+.top_review1 p::before {
+	position: absolute;
+	content: '';
+	background-color: black;
+	top: 52px;
+	left: 41px;
+	width: 77%;
+	height: 24%;
+	margin: 0 auto;
+	background-color: #8ec39b75;
+}
+.top_review1 p::after {
+	position: absolute;
+	content: '';
+	background-color: black;
+	top: 82px;
+	left: 87px;
+	width: 61%;
+	height: 24%;
+	margin: 0 auto;
+	background-color: #8ec39b75;
+}
+/* -------------------------- promise area2 css here------------------------- */
+#promise_area2{
+    background: rgba(27, 26, 25, 0.05);
+    padding-top: 56px;
+}
+.promise_card1 {
+	background-image: url(../images/Vector\ 23.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	width: 95%;
+	/* position: relative; */
+	/* right: 50px; */
+	margin-left: 30%;
+}
+.footer_top_bg img {
+	width: 100%;
+	position: relative;
+	top: 0%;
+}
+
+.promise_card_p {
+	position: relative;
+	background-image: url(../images/Vector\ 21.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70%;
+}
+.promise_card2 {
+	width: 98%;
+	text-align: start;
+	position: relative;
+	right: 5%;
+}
+.promise_card2 img {
+}
+.promise1-overlay {
+	position: absolute;
+	top: 0;
+	/* left: 5%; */
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.promise1-ol-content {
+	transform: translateY(35%);
+	text-align: center;
+}
+.promise1-overlay img {
+	width: 90px;
+	height: auto;
+	padding: 0px;
+}
+.promise1-overlay h3 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 50px;
+	color: #1B1A19;
+	padding-top: 51px;
+	/* padding-left: 47px; */
+	padding-bottom: 51px;
+}
+.promise1-overlay p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 25px;
+	color: #1B1A19;
+	/* padding-left: 75px; */
+}
+.promise1-overlay a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	color: #8EC39B;
+	text-decoration: none;
+	padding: 10px 24px;
+	border: 2px solid #8EC39B;
+	position: relative;
+	/* left: 30px; */
+	top: 51px;
+	transition: all .3s linear;
+}
+.promise1-overlay a:hover {
+	background-color: #8EC39B;
+    color: #fff;
+}
+.promise2-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.promise2-ol-content {
+	transform: translateY(45%);
+	text-align: center;
+	margin-left: 30px;
+}
+.promise2-overlay img {
+	width: 90px;
+	height: auto;
+}
+.promise2-overlay h3 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 50px;
+	color: #1B1A19;
+	padding-top: 51px;
+	padding-bottom: 51px;
+	position: relative;
+	left: 0%;
+}
+.promise2-overlay p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 25px;
+	color: #1B1A19;
+	padding-left: -7px;
+	position: relative;
+}
+.promise2-overlay a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	color: #8EC39B;
+	text-decoration: none;
+	padding: 10px 24px;
+	border: 2px solid #8EC39B;
+	position: relative;
+	top: 51px;
+    transition: all .3s linear;
+}
+.promise2-overlay a:hover {
+	background-color: #8EC39B;
+    color: #fff;
+}
+.imagess {
+	position: relative;
+	left: -10%;
+	top: 0px;
+}
+
+/* -------------------------- our cafe area css here ------------------------- */
+
+.ourCafe_title p{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+padding-top: 104px;
+}
+.ourCafe_title h2{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 17px;
+padding-bottom: 92px;
+}
+.ourCafe_bg{
+    background-image: url(../images/cafe\ doorway.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ourcafe_content{
+    padding-bottom: 128px;
+}
+.ourcafe_content h2{
+    margin-top: 310px;
+    font-family: Ubuntu;
+    margin-bottom: 50px;
+font-style: normal;
+font-weight: 500;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+border: 6px solid #FEFEFF;
+background: rgba(27, 26, 25, 0.5);
+border: 6px solid #FEFEFF;
+box-sizing: border-box;
+border-radius: 3px;
+padding: 31px 44px;
+}
+.ourcafe_content a{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+letter-spacing: 0.02em;
+color: #FEFEFF;
+background: #8EC39B;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+text-decoration: none;
+padding: 30px 56px;
+transition: all .3s linear;
+}
+.ourcafe_content a:hover {
+	color: #fff;
+	background: #000000;
+}
+/* -------------------------- catering area css here ------------------------- */
+
+.catering_title p{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+padding-top: 104px;
+}
+.catering_title h2{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 17px;
+padding-bottom: 92px;
+}
+.catering_bg{
+    background-image: url(../images/catering\ doorway.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.catering_content{
+    padding-bottom: 128px;
+}
+.catering_content h2{
+    margin-top: 310px;
+    font-family: Ubuntu;
+    margin-bottom: 50px;
+font-style: normal;
+font-weight: 500;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+border: 6px solid #FEFEFF;
+background: rgba(27, 26, 25, 0.5);
+border: 6px solid #FEFEFF;
+box-sizing: border-box;
+border-radius: 3px;
+padding: 31px 44px;
+}
+.catering_content a{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+letter-spacing: 0.02em;
+color: #FEFEFF;
+background: #8EC39B;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+text-decoration: none;
+padding: 30px 56px;
+transition: all .3s linear;
+}
+.catering_content a:hover {
+	color: #fff;
+	background: #000000;
+}
+/* -------------------------- about area css here ------------------------- */
+.about_content_lrt{
+    position:relative;
+    left: -10%;
+}
+.about_content p{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+padding-top: 117px;
+}
+.about_content h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    color: #1B1A19;
+    padding-top: 30px;
+}
+.about_content .about-p2{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+padding-top: 75px;
+}
+.about_content .about-p3 {
+	font-family: Cedarville Cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 54px;
+	line-height: 70px;
+	letter-spacing: 0.02em;
+	color: #1B1A19;
+    padding-bottom: 123px;
+}
+.about-bg {
+	position: relative;
+	top: 10%;
+	left: 75%;
+	width: 83%;
+	margin-left: -3%;
+}
+.about-img img {
+	position: absolute;
+	top: 25%;
+	left: -46%;
+}
+/* -------------------------- gallery area css ------------------------- */
+#gallery_area{
+	background: rgba(27, 26, 25, 0.05);
+}
+.gallery_title p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+padding-top: 105px;
+padding-bottom: 20px;
+}
+.gallery_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+}
+.gallery_icon i {
+	padding-top: 173px;
+	font-size: 74px;
+	padding-left: 60px;
+	color: #8EC39B;
+	cursor: pointer;
+}
+.gallery_icon a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 50px;
+	color: #8EC39B;
+	padding-top: 146px;
+	padding-left: 40px;
+	text-decoration: none;
+}
+.gallery_part1{
+	padding-top: 164px;
+}
+.gallery_part1 img{
+	padding: 0 19px;
+}
+.gallery_img{
+	position: relative;
+}
+.gallery_hover {
+	position: absolute;
+	top: 0;
+	left: 17px;
+	height: 100%;
+	width: 90%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.233);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s linear;
+}
+.gallery_hover i {
+	font-size: 80px;
+	position: relative;
+	top: 40%;
+	color: #fff;
+	cursor: pointer;
+}
+.gallery_img:hover .gallery_hover{
+	opacity: 1;
+	visibility: visible;
+}
+.gallery_part2 {
+	padding: 0 19px;
+	margin-top: 38px;
+	margin-bottom: 126px;
+
+}
+.gallery_part2 img{
+	padding: 0 19px;
+}
+/* --------------------------praise area css here ------------------------- */
+.praise_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 125px;
+}
+.qur_img {
+	width: 162px;
+	height: 140px;
+	margin-top: 76px;
+}
+.review_silder{
+	padding-top: 104px;
+}
+.review_slider_items{
+	margin-right: 20px;
+}
+.review_slider_items img {
+	width: 100%;
+}
+.review_position{
+	position: relative;
+}
+.review_arrows {
+	position: absolute;
+	transform: translateY(50%);
+	width: 100%;
+}
+.rleft {
+	font-size: 50px;
+	background: #8EC39B;
+	padding: 5px 10px;
+	border-radius: 10px;
+	position: absolute;
+	left: 3%;
+	cursor: pointer;
+}
+.rright {
+	font-size: 50px;
+	background: #8EC39B;
+	padding: 5px 10px;
+	border-radius: 10px;
+	position: absolute;
+	right: 3%;
+	cursor: pointer;
+}
+/* --------------------------contect area css here ------------------------- */
+#contect{
+	z-index: 9999;
+}
+.contect_part1 h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 106px;
+padding-bottom: 61px;
+}
+.contect_part11 p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+}
+.contect_part12 p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+}
+.p2p{
+	padding-top: 31px;
+}
+.p2p2{
+	line-height: 1.5px !important;
+}
+.contect_part1Img{
+	padding-top: 42px;
+	padding-bottom: 193px;
+}
+.bg-dem {
+	background: rgba(27, 26, 25, 0.05);
+	/* padding-right: -32px; */
+	width: 98%;
+}
+.contect_part2 h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 113px;
+}
+.contect_part2_title_two p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #000000;
+padding-top: 33px;
+padding: 0 20px;
+}
+.form{
+	padding-top: 76px;
+}
+
+.text_input{
+	height: 170px !important;
+}
+.s_btn{
+	margin-top: 54px !important;
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+display: flex;
+align-items: center;
+color: #FEFEFF;
+background: #8EC39B;
+border-radius: 3px;
+z-index: 9999999;
+cursor: pointer;
+transition: all .3s linear;
+}
+.s_btn:hover{
+	color: #000;
+}
+/* -------------------------- footer area ------------------------- */
+#footer_area{
+	background: #1B1A19;
+	padding-bottom: 91px;
+	position: relative;
+}
+.footer_part1{
+	padding-top: 91px;
+}
+.footer_part1 a{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+color: #FEFEFF;
+text-decoration: none;
+padding-bottom: 10px;
+}
+.footer_part2{
+	padding-top: 91px;
+}
+.footer_part2 a{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+color: #FEFEFF;
+text-decoration: none;
+padding-bottom: 10px;
+}
+.footer_img {
+	height: 128px;
+	padding-top: 82px;
+}
+.footer_img img{
+	width: 122px;
+}
+.footer_part4{
+	padding-top: 91px;
+}
+.footer_part4 a{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+color: #FEFEFF;
+
+text-decoration: none;
+padding-bottom: 15px;
+}
+.footer_part4 i {
+	font-size: 22px;
+	margin-right: 13px;
+}
+.footer_part5{
+	height: 113px;
+}
+.footer_part5 a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	color: #FEFEFF;
+	text-decoration: none;
+	padding: 15px;
+	background: #8EC39B;
+	border-radius: 0;
+	transform: translateY(0%);
+	transition: all .3s linear;
+}
+.footer_part5 a:hover{
+	color: #000;
+}
+.footer_top_bg {
+	position: absolute;
+	top: -100%;
+	width: 100%;
+}
+.back_up_bnt {
+	text-align: center;
+	background-color: #8EC39B;
+	cursor: pointer;
+	transition: all 0s linear;
+	clip-path: polygon(50% 5%, 100% 40%, 100% 100%, 0 100%, 0 40%);
+	border: 3px solid #000;
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+}
+.back_up_bnt:hover{
+	background: #000;
+	clip-path: polygon(50% 5%, 100% 40%, 100% 100%, 0 100%, 0 40%);
+	border-radius: 5px;
+}
+.back_up_bnt:hover p{
+	color: #fff;
+}
+.back_up_bnt p {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	line-height: 90px;
+	letter-spacing: 0.02em;
+	color: #1B1A19;
+	padding-top: 30%;
+	transition: all .3s linear;
+}
+/* -------------------------- ------------------------- */
+/* -------------------- catering page css here -------------- */
+/* -------------------------- ------------------------- */
+
+/* -------------------------- banner area ------------------------- */
+.banner_overlay_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 100%; */
+	text-align: center;
+	padding-top: 400px;
+	background-color: rgba(0, 0, 0, 0.144);
+}
+.banner_overlay_content.boct {
+	text-align: center;
+}
+.banner_overlay_content.boct h1 {
+	padding: 77px 0 0 0;
+}
+.banner_overlay_content.boct a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 47px;
+	line-height: 60px;
+	display: flex;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	background-color: #8EC39B;
+	padding: 63px 0 63px 55px;
+	margin-top: 40px;
+	text-decoration: none;
+	justify-content: center;
+}
+.banner_big_arrow2 {
+	transform: translateY(230%);
+}
+.banner_big_arrow2 img {
+	/* top: 0; */
+	position: absolute;
+	top: -190px;
+	left: 500px;
+}
+/* -------------------------- service and delivery area css here ------------------------- */
+#serAndDeli_area{
+	background: #8EC39B;
+	padding-bottom: 122px;
+
+}
+.ser_icons1{
+	padding-top: 150px;
+}
+.ser_icons img{
+	padding-top: 111px;
+}
+.ser_icons p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+color: #FEFEFF;
+}
+.ser_icons1 p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+color: #FEFEFF;
+}
+.sIcon1 {
+	padding-top: 100px;
+}
+.sIcon2 {
+	padding-top: 50px;
+}
+.sIcon3 {
+	padding-top: 74px;
+}
+.sIcon4 {
+	padding-top: 55px;
+}
+/* -------------------------- manu area css here  ------------------------- */
+#manu_area_manu{
+	padding-bottom: 70px;
+}
+.model_img1 {
+	text-align: center;
+	position: relative;
+	width: 600px;
+	margin: auto;
+}
+.model_img1 img{
+	width: 100%;
+}
+.manu_title p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+padding-top: 110px;
+}
+.manu_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+}
+.manu_title .mtp {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 40px;
+	color: #1B1A19;
+	padding-top: 40px;
+	width: 50%;
+	margin: auto;
+}
+.model_area .nav-pills .nav-link.active {
+	color: #fff !important;
+	background-color: #0d6efd;
+	width: 300px;
+	text-align: center;
+	padding: 20px;
+	background: #1B1A19;
+}
+.model_area .nav-link{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19 !important;
+margin-bottom: 15px;
+width: 300px;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid #1B1A19;
+}
+/*.model_area .nav {*/
+/*	display: flex;*/
+/*	flex-wrap: wrap;*/
+/*	padding-left: -35px;*/
+/*	margin-bottom: 0;*/
+/*	list-style: none;*/
+/*	position: relative;*/
+/*	left: -5%;*/
+/*	margin-top: 185px;*/
+/*}*/
+.vbox-close {
+	cursor: pointer;
+	position: fixed;
+	top: -1px;
+	right: 25px;
+	width: 50px;
+	height: 73px;
+	padding: 6px;
+	display: block;
+	background-position: 10px center;
+	overflow: hidden;
+	font-size: 63px;
+	line-height: 1;
+	text-align: center;
+	z-index: 99;
+}
+.manu_opcity{
+	position: absolute;
+	top: -5%;
+	left: 5%;
+	border: 1px solid#000;
+	height: 100%;
+	width: 100%;
+	z-index: -99;
+}
+.manu_overley{
+	position: absolute;
+	top: 0;
+	left: 0;height: 100%;
+	width: 100%;
+	background-color: #1b1a1942;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s linear;
+}
+.model_img1:hover .manu_overley {
+	visibility: visible;
+	opacity: 1;
+}
+.manu_overley i {
+	transform: translateY(550%);
+	font-size: 55px;
+	color: #000;
+}
+
+.download_icon a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	background-color: #8EC39B;
+	color: #FEFEFF;
+	width: 100%;
+	padding: 15px 45px;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: all .3s linear;
+	width: 200%;
+}
+.download_icon a:hover{
+	color: #000;
+}
+/* -------------------------- slide gallery area css  ------------------------- */
+#slide_gal_area{
+	background: rgba(27, 26, 25, 0.05);
+	padding-bottom: 216px;
+}
+.slide_gel_title p{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 0px;
+	color: #1B1A19;
+
+}
+.slide_gel_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 57px;
+line-height: 80px;
+letter-spacing: 0.02em;
+color: #1B1A19;
+padding-top: 17px;
+padding-bottom: 166px;
+}
+.gal_slide_view {
+	position: relative;
+	margin-left: -16px;
+	margin-right: -12px;
+}
+.gal_slide_arrows{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.gal_slide_arrows i{
+	color: #000;
+	background-color: #8EC39B;
+	padding: 23px 21px;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.glb{
+	position: relative;
+	top: 85%;
+	left: 5%;
+}
+.grb {
+	position: relative;
+	top: 85%;
+	left: 88%;
+}
+.row2 {
+	justify-content: center !important;
+	/* left: 10%; */
+	/* position: relative; */
+	width: 100%;
+}
+/* -------------------------- ------------------------- */
+/* ------------------------ cafe page css here ---------------- */
+/* -------------------------- ------------------------- */
+.promise_contentp{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+
+}
+.manu_slider2{
+	padding-top: 79px;
+}
+.manu_slider_items{
+	position: relative;
+}
+.manu_slider_icons{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.116);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s linear;
+}
+.manu_slider_icons i {
+	position: relative;
+	top: 44%;
+	left: 44%;
+	font-size: 70px;
+	cursor: pointer;
+	color: #8EC39B;
+}
+.manu_slider_items:hover .manu_slider_icons{
+	opacity: 1;
+	visibility: visible;
+}
+.call_bnt {
+	/* text-align: end; */
+	/* position: relative; */
+	/* right: 10%; */
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.call_bnt button{
+	background-color: transparent;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #8EC39B;
+}
+.call_bnt button p{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 50px;
+color: #8EC39B;
+padding-left: 10px;
+}
+/* -------------------------- ------------------------- */
+/* ------------------- catering_breakfast_header_area ----------- */
+/* -------------------------- ------------------------- */
+.catering_breakfast_header_area {
+	background: #8EC39BB2;
+	height: 100px;
+}
+.catering_breakfast_manu2  {
+	margin-top: -30px;
+}
+.catering_breakfast_manu  {
+	margin-top: -30px;
+}
+.catering_breakfast_select  {
+	margin-top: -30px;
+}
+.catering_breakfast_logo img {
+	width: 53%;
+	position: relative;
+	top: 14px;
+	left: 74px;
+}
+.catering_breakfast_manu a.active {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	color: #8EC39B;
+	padding: 10px 25px;
+	background-color: #000;
+	position: relative;
+	top: 65px;
+	margin-left: 0px;
+}
+.catering_breakfast_manu a ,.catering_breakfast_manu .activeLeft {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	color: #8EC39B;
+	padding: 10px 25px;
+	background-color: #fff;
+	position: relative;
+	top: 65px;
+	margin-left: 100px;
+}
+.catering_breakfast_manu .activeLeft{
+	background-color: #000;
+
+}
+.catering_breakfast_manu .cbp::before {
+	content: '';
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	/* right: -10%; */
+	background-color: #fff;
+	top: 50%;
+	left: 125%;
+}
+.catering_breakfast_manu2 img {
+	padding-top: 60px;
+	margin-right: 19px;
+	margin-left: 60px;
+	height: 100%;
+}
+.catering_breakfast_manu2 p {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: #FEFEFF;
+	position: relative;
+	margin-top: 65px;
+}
+.cbpahr::before {
+	content: '';
+	width: 2px;
+	height: 30px;
+	background-color: #fff;
+	position: absolute;
+	left: 120%;
+}
+/* check box */
+
+.form-group {
+	display: block;
+	margin-bottom: 15px;
+	padding-top: 63px;
+}
+
+  .form-group input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+  }
+
+  .form-group label {
+	position: relative;
+	cursor: pointer;
+  }
+
+  .form-group label::before {
+	content: '';
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #000;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 15px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.form-group input:checked + label::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -2px;
+	left: 13px;
+	width: 11px;
+	height: 26px;
+	border: solid #000;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+/* check box finger 2 */
+.food_order_link{
+	margin-top: 208px;
+}
+.food_order_link a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	padding: 16px 20px;
+	background: #FEFEFF;
+	border: 1.5px solid #1B1A19;
+	box-sizing: border-box;
+	border-radius: 2px;
+	text-align: center;
+	color: #1B1A19;
+	margin-bottom: 10px;
+
+}
+.food_order_link a.active{
+	background: #8EC39B;
+
+}
+.finger_part{
+	background: rgba(142, 195, 155, 0.2);
+	height: 930px;
+}
+.finger_title{}
+.finger_title h2{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 60px;
+letter-spacing: 0.04em;
+color: #1B1A19;
+padding-top: 94px;
+}
+.finger_title img {
+	margin-top: 65px;
+	padding-left: 115px;
+}
+.option_card{
+	background: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+border-radius: 2px;
+margin: 0 40px;
+margin-top: 30px;
+}
+.option_header{
+	background: rgba(27, 26, 25, 0.05);
+}
+.option_card_title h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	color: #1B1A19;
+	padding: 27px 0px 27px 30px;
+}
+.option_header_select .form-check-input {
+	margin-top: 38px;
+	margin-left: 150px;
+	width: 25px;
+	height: 25px;
+}
+.card_list ul{
+	text-align: start;
+	margin-top: 28px;
+	margin-left: 29px;
+	margin-right: 29px;
+}
+.card_list ul li{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #1B1A19;
+}
+.card_end_icon{
+	margin-top: 33px;
+	/*margin-right: 43px;*/
+	margin-bottom: 18px;
+}
+.card_icons2{
+	margin-left: 21px;
+}
+.card_end_icon span{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 32px;
+color: #8EC39B;
+}
+.finger_part2{
+	background: rgba(142, 195, 155, 0.4);
+	height: 930px;
+}
+.finger_part_end{
+	margin-left: 20px;
+}
+.finger_end_title h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 45px;
+	color: #1B1A19;
+	padding-top: 98px;
+	padding-bottom: 48px;
+}
+.p_kom15{
+	margin-left: -25px;
+	margin-right: -25px;
+}
+.finger_end_check{
+
+}
+.form-check {
+	text-align: end;
+	display: flex;
+}
+.form-check p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #1B1A19;
+	text-align: start;
+}
+.select_items span{
+	text-align: end;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 10px;
+color: #8EC39B;
+}
+.finger_end_check .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 35px !important;
+	height: 25px !important;
+	margin-right: 5px;
+}
+.finger_end_check .form-check-input:checked {
+	background: #8EC39B;
+border-radius: 2px;
+border-color: nio;
+}
+.finger_end_check .form-check-input:checked[type="checkbox"] {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+.finger_end_title2{
+	margin-top: 91px;
+}
+.finger_end_title2 h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 45px;
+color: #1B1A19;
+}
+.finger_end_title2 img {
+	height: 100%;
+	text-align: end;
+	padding-left: 25%;
+}
+
+.finger_end_check .form-check .select_items span {
+	text-align: end;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 10px;
+	color: #8EC39B;
+}
+.food_last_area{
+	text-align: center;
+	margin-top: 98px;
+}
+.food_title h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 45px;
+	color: #1B1A19;
+	margin-bottom: 48px;
+	/* margin-left: 10px; */
+}
+.food-last-list{
+	margin-left: 30px;
+}
+.food-last-list .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 28px;
+	height: 20px;
+	margin-right: 10px;
+}
+.list_line p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #1B1A19;
+	padding: 0 15px 0 0;
+	text-align: start;
+}
+.list_line span{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 10px;
+color: #8EC39B;
+}
+.food_last_area_end {
+	margin-top: 50px;
+}
+.flae_list {
+	margin-top: 48px;
+	padding-bottom: 65px;
+}
+.flae_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 45px;
+color: #1B1A19;
+margin-left: 30px;
+}
+.flae_title img {
+	padding-left: 20%;
+}
+.flae_list .list_line .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 28px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+.food_area_link a {
+	margin-top: 99px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 50px;
+	letter-spacing: 0.02em;
+	color: #FEFEFF;
+	background: #8EC39B;
+	border-radius: 2px;
+	padding: 16px 12px;
+	margin-left: 30px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.food_area_link a:hover{
+	color: #000;
+}
+.answer {
+	display: none;
+	padding-bottom: 95px;
+}
+  .show_div{
+	  margin-top: 50px;
+  }
+  .show_div_title h2{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 45px;
+	color: #1B1A19;
+	margin-bottom: 44px;
+  }
+  .show_div_items.active {
+	padding-top: 25px;
+	background: rgba(142, 195, 155, 0.2);
+}
+  .show_div_items {
+	padding-top: 25px;
+}
+
+  .show_div_items p {
+	text-align: start;
+	padding-left: 60px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 38px;
+	color: #8EC39B;
+	padding-right: 80px;
+}
+
+  .icon_span{
+	margin-right: 10%;
+  }
+  .show_div_items span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 32px;
+	color: #8EC39B;
+	margin-top: -10px;
+	margin-left: -6px;
+}
+.form-check-input:checked {
+	background-color: #8EC39B;
+	border-color: #8EC39B;
+}
+.option_header_select .form-check-input {
+	margin-top: 40px;
+	/* margin-left: 150px; */
+	width: 25px;
+	height: 25px;
+	margin-right: 30px;
+}
+.arrow_left{
+	position: relative;
+	cursor: pointer;
+	top: 0;
+}
+.arrow_left_btn {
+	margin-top: -100px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.arrow_left_btn p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	color: #1B1A19;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.camuc{
+	padding-left: 40%;
+}
+
+/* -------------------------- ------------------------- */
+/* --------------------------- catering yea----------------- */
+/* -------------------------- ------------------------- */
+
+.big_btn {
+	position: absolute;
+	bottom: 16%;
+	width: 180%;
+	left: -87%;
+}
+.big_btn a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	color: #FEFEFF;
+	background: #8EC39B;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+	border-radius: 2px;
+	/* width: 151%; */
+	padding: 15px 35%;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.big_btn a:hover{
+	color: #000;
+}
+.small_btn {
+	position: absolute;
+	bottom: 16%;
+	width: 51%;
+	left: 103%;
+}
+.small_btn a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 50px;
+	color: #FEFEFF;
+	background: #8EC39B;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+	border-radius: 2px;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.small_btn a:hover{
+	color: #000;
+}
+.catering_breakfast_content .arrow_left_btn {
+	margin-top: -100px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.model_area_nav {
+	/* display: flex; */
+	background: #8EC39B;
+}
+
+.model_area_nav .nav-pills .nav-link {
+	background: 0 0;
+	border: 0;
+	border-radius: .25rem;
+	color: #000 !important;
+}
+.model_area_nav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff !important;
+	background-color: transparent;
+}
+.model_area_nav .nav{
+	display: flex;
+}
+/* -------------------------- ------------------------- */
+/* --------------------- catering tea ADDITIONAL OPTIONS page------ */
+/* -------------------------- ------------------------- */
+.food_order_link .activelight{
+	background: rgba(142, 195, 155, 0.7);
+border-radius: 0px 0px 2px 2px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+color: #1B1A19;
+}
+.list_title_one{
+	margin-top: 66px;
+}
+.list_title_icon img{
+	width: 38px;
+	height: 38px;
+}
+.list_title_icon p {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: #8EC39B;
+	padding-top: 5px;
+	margin-left: 15px;
+}
+.list1_list11{
+
+}
+.ulta h2 {
+	position: relative;
+	transform: rotate(-90deg);
+	top: -60px;
+	left: -40%;
+}
+.ulta1 h2 {
+	position: relative;
+	transform: rotate(-90deg);
+	top: -140px;
+	left: -40%;
+}
+.list_suru{
+margin-left: 100px;
+}
+.list_suru ul{
+	list-style-type: none;
+}
+.list_suru ul li{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #1B1A19;
+margin-bottom: 10px;
+}
+.list_suru ul li .form-check-input {
+	width: 1em;
+	height: 1em;
+	margin-top: .25em;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	border: 1px solid rgba(0,0,0,.25);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-print-color-adjust: exact;
+	color-adjust: exact;
+	margin-right: 10px;
+	margin-top: -1px;
+}
+.list_suru ul li img {
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.list_title_icon{}
+.list_title_icon a{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.04em;
+color: #8EC39B;
+text-decoration: none;
+}
+.list_suru3{
+	margin-left: 0px;
+	margin-top: 40px;
+}
+.catering_tea_addons .big_btn {
+	position: absolute;
+	bottom: 5%;
+	width: 540%;
+	left: 20%;
+}
+.catering_tea_addons .big_btn a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	color: #FEFEFF;
+	background: #8EC39B;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+	border-radius: 2px;
+	/* width: 151%; */
+	padding: 15px 4%;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.catering_tea_addons .small_btn {
+	position: absolute;
+	bottom: 5%;
+	width: 51%;
+	left: 81%;
+}
+.small_btn1 a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 50px;
+	color: #FEFEFF;
+	background: #8EC39B;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+	border-radius: 2px;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+/* -------------------------- ------------------------- */
+/* ------------------------------ catering lunch page css  */
+/* -------------------------- ------------------------- */
+.plus_icon {
+	margin-left: 11px;
+}
+.plusIcon p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #8EC39B;
+}
+.plusIcon img {
+	margin-top: -22px;
+}
+.plus_icon span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: #8EC39B;
+	padding-top: 23px;
+}
+.flae_list11 .list_line p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #1B1A19;
+	padding: 0 0px 0 0;
+	text-align: start;
+}
+.flae_list11{}
+.flae_list11 ul{
+	list-style-type: none;
+}
+.flae_list11 ul li {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #1B1A19;
+	margin-top: 18px;
+}
+.flae_list11 ul li .form-check-input:checked {
+	background-color: #8EC39B;
+	border-color: #8EC39B;
+	margin-right: 15px;
+}
+.flae_list11 ul li .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	margin-right: 10px;
+}
+/* -------------------------- ------------------------- */
+/* ----------------- catering lunch addons ----------------  */
+/* -------------------------- ------------------------- */
+.list12_title{
+	margin-top: 99px;
+}
+
+/* -------------------------- ------------------------- */
+/* ----------------- catering dinner page-------------  */
+/* -------------------------- ------------------------- */
+.dinner_title {
+	margin-left: 70px;
+	margin-top: 80px;
+}
+.d_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 60px;
+letter-spacing: 0.04em;
+color: #1B1A19;
+}
+.dinner_top_icon {
+	/* margin-top: 80px; */
+	margin-left: 75%;
+	margin-bottom: 80px;
+}
+.d_title2 {
+	position: relative;
+	left: 25%;
+}
+.d_title2 h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 45px;
+	align-items: center;
+	color: #8EC39B;
+	width: 200%;
+}
+.d_title2 ul li{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #1B1A19;
+}
+.d_icon_top span {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 50px;
+	color: #1B1A19;
+	margin-left: 10px;
+}
+.sapmm{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 32px;
+color: #8EC39B;
+}
+.option_header_select1 {
+	padding-top: 38px;
+	padding-left: 40px;
+}
+.option_header_select1 .form-check-input {
+	width: 23px;
+	height: 25px;
+}
+.ul_list1 ul{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.ul_list1 ul li{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #1B1A19;
+margin-bottom: 8px;
+}
+.ul_list1 .ul1 {
+	margin-bottom: 65px;
+}
+.d-area.arrow_left_btn {
+	margin-top: -235px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.s_list{
+
+background: rgba(142, 195, 155, 0.2);
+}
+.s_list1 .option_header {
+	background: #fff;
+}
+.s_title11 h2{
+	margin-bottom: 25px;
+}
+.s_list .option_header_select1 {
+	padding-top: 26px;
+	padding-left: 0px;
+}
+.option_card_title_small h5{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 38px;
+letter-spacing: 0.02em;
+color: #8EC39B;
+
+}
+.s_list1 .option_header_select1 {
+	padding-top: 38px;
+	padding-left: 0px;
+}
+.ptc {
+	padding-top: 50%;
+}
+
+/* -------------------------- ------------------------- */
+/* ------------------ dinner addons page css -----------  */
+/* -------------------------- ------------------------- */
+.dinner_addons_card1 {
+	margin-top: 40px;
+	margin-left: 26px;
+	width: 120%;
+
+}
+.dinner_first_icon{
+	margin-right: 72px;
+
+}
+.dinner_first_icon img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+.dinner_first_icon p {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: #8EC39B;
+	padding-top: 7px;
+}
+.dinner_card_one{
+	margin-top: 70px;
+	margin-left: 26px;
+	background: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+}
+.dinner_addons_title{
+
+background: rgba(27, 26, 25, 0.05);
+}
+.dinner_addons_title h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	color: #1B1A19;
+	padding: 26px 190px 26px 36px;
+}
+.dinner_addons_title span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #8EC39B;
+	padding: 30px 0px;
+}
+.dinner_addons_title .form-check-input:checked {
+	background-color: #8EC39B;
+	border-color: #8EC39B;
+	width: 20px;
+	height: 21px;
+	margin-top: 34px;
+	margin-left: 5px;
+}
+.dinner_addons_title .form-check-input[type="checkbox"] {
+	width: 20px;
+	height: 21px;
+	margin-top: 34px;
+	margin-left: 5px;
+}
+.diiner_addons_list111 {
+	margin-top: 38px;
+	margin-left: 45px;
+	padding-bottom: 30px;
+}
+.dinner_addons_list_items .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 20px;
+	height: 21px;
+	margin-right: 19px;
+}
+.dinner_addons_list_items p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #1B1A19;
+}
+
+/* -------------------------- ------------------------- */
+/* -------------------------- review section css here ------------------------- */
+/* -------------------------- ------------------------- */
+.review_card_maddile_main {
+	margin-top: 80px;
+	margin-left: 50px;
+	padding: 40px 40px 40px 40px;
+	background: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+border-radius: 12px;
+}
+.review_card_title  {
+	justify-content: start;
+}
+.review_hader1 .form-check-input[type="checkbox"] {
+	border-radius: .25em;
+	width: 33px;
+	height: 33px;
+	margin-top: 8px;
+	margin-right: 29px;
+}
+.review_header2 h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+}
+.review_header3 {
+	text-align: center;
+	margin-top: 10px;
+}
+.review_header3 img {
+	width: 17px;
+	height: 19px;
+	margin-left: 5px;
+}
+.review_header3 span{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 32px;
+color: #8EC39B;
+}
+.review_title_iconPM {
+	text-align: center;
+	margin-top: 5px;
+}
+.review_title_iconPM i {
+	background: rgba(27, 26, 25, 0.1);
+	border-radius: 81px;
+	padding: 15px;
+	font-size: 11px;
+	cursor: pointer;
+}
+.review_title_iconPM span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0.75px;
+	color: #14142B;
+	padding: 0 14px;
+	margin-top: 5px;
+}
+.review_close{
+	text-align: end;
+}
+.review_close i {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.review_ul{
+	border-bottom:  2px solid rgba(0, 0, 0, 0.4);
+	padding-bottom: 30px;
+}
+.review_ul ul{
+	margin-top: 10px;
+}
+.review_ul ul li{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1B1A19;
+}
+.all_review {
+	margin-top: 44px;
+}
+.review_header2 h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+	color: #1B1A19;
+	margin-top: 5px;
+}
+
+.review_last_content {
+	background: #FEFEFF;
+	border: 1.5px solid #EBEBEB;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 80px;
+	padding: 30px;
+}
+.review_link {
+	margin-top: 80px;
+}
+.review_link a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 38px;
+	color: #8EC39B;
+	background: #FEFEFF;
+	border: 3px solid #8EC39B;
+	box-sizing: border-box;
+	border-radius: 2px;
+	padding: 15px 86px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.review_link a:hover{
+	color:#FEFEFF ;
+	background:#8EC39B;
+}
+
+/* details area css here  */
+.details_form_card {
+	margin-top: 144px;
+	padding: 96px 61px 150px 61px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	width: 80%;
+	margin-left: 10%;
+}
+.details_form_card h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+padding-bottom: 33px;
+}
+.details_form_card form input{
+	width: 353px;
+	height: 64px;
+	margin: 0 auto;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: rgba(27, 26, 25, 0.7);
+margin-top: 13px;
+padding-left: 24px;
+}
+.pickunAndDeli_area {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 144px;
+	margin-right: 80px;
+}
+.calender_view ul {
+	border: none;
+	display: flex;
+	width: 120%;
+}
+.calender_view ul li .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 0px;
+	color: #FEFEFF;
+	background: #1B1A19;
+	width: 200px;
+	height: 64px;
+	margin-left: 0px;
+}
+.calender_view ul li .nav-link {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 0px;
+	color: #FEFEFF;
+	background: rgba(27, 26, 25, 0.2);
+	width: 200px;
+	height: 64px;
+	margin-left: 0px;
+}
+.calender {
+	width: 105%;
+	margin-top: 40px;
+}
+.pickup{
+	margin-left: 80px;
+}
+.pickup h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+margin-top: 49px;
+}
+.pickup span{
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+margin-top: 35px;
+}
+.dateAndTime  {
+	width: 150%;
+}
+.pickup select {
+	word-wrap: normal;
+	width: 111px;
+	height: 28px;
+	margin-top: 30px;
+	border: none;
+	margin-left: 10px;
+	background: rgba(27, 26, 25, 0.1);
+border-radius: 3px;
+}
+.pickup h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+align-items: center;
+
+color: #1B1A19;
+}
+.pickup b{}
+.pickup address{
+	font-family: Roboto;
+font-style: normal;
+font-size: 20px;
+line-height: 38px;
+color: #1B1A19;
+}
+.deli_content h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+margin-top: 49px;
+}
+.dateAndTime  span {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	margin-top: 35px;
+}
+.dateAndTime select {
+	word-wrap: normal;
+	width: 111px;
+	height: 28px;
+	margin-top: 30px;
+	border: none;
+	margin-left: 10px;
+	background: rgba(27, 26, 25, 0.1);
+	border-radius: 3px;
+}
+#Street{
+	width: 323px;
+	height: 64px;
+	margin-top: 39px;
+	padding-left: 10px;
+	font-size: 22px;
+}
+#Level{
+	width: 323px;
+	height: 64px;
+	margin-top: 13px;
+	padding-left: 10px;
+	font-size: 22px;
+}
+#Postcode{
+	width: 160px;
+	height: 64px;
+	margin-top: 13px;
+	padding-left: 10px;
+	font-size: 22px;
+}
+#Auckland{
+	width: 160px;
+	height: 64px;
+	margin-top: 13px;
+	padding-left: 10px;
+	font-size: 22px;
+	margin-left: 3px;
+	margin-bottom: 42px;
+}
+
+/* -------------------------------------------------------
+--------------------- confirm page css here --------------
+------------------------------------------------------- */
+.confirmtion_title h2{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+color: #1B1A19;
+margin-top: 136px;
+}
+.confirmtion_title p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+color: #1B1A19;
+}
+.con_card_area {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	padding: 50px 61px;
+	margin-top: 52px;
+}
+
+.con_title1 .form-check-input:checked {
+	background-color: #8EC39B;
+	border-color: #8EC39B;
+	width: 33px;
+	height: 33px;
+	margin-top: 8px;
+}
+.con_title2 h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 50px;
+	color: #1B1A19;
+	margin-left: -85px;
+}
+.con_title3 img {
+	width: 24px;
+	height: 28px;
+	margin-top: 11px;
+}
+.con_title3 span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	color: #8EC39B;
+	margin-top: 10px;
+}
+.con_title4 {
+	margin-left: 60px;
+	margin-top: 8px;
+}
+.con_title4 span{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 32px;
+color: #1B1A19;
+padding-left: 5px;
+}
+.con_card_area .row{
+	margin-top: 14px;
+}
+.con_title2 p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+	color: #1B1A19;
+	margin-left: -85px;
+}
+.con_title5 img {
+	width: 33px;
+	height: 24px;
+}
+.confirm_last {
+	width: 70%;
+	text-align: start;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.3);
+	border-radius: 12px;
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.confirm_last a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background: #1B1A19;
+	border: 2px solid #1B1A19;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 3px 3px 0px;
+	color: #FEFEFF;
+	width: 50%;
+	justify-content: center;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+.confirm_last span{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #1B1A19;
+margin-top: 50px;
+}
+.confirm_last p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 32px;
+color: #1B1A19;
+}
+.con_last_text{
+	margin-left: 48px;
+}
+
+
+
+
+
+
+
+
+
+/* .footer link button  */
+.backAndLinkBtn{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.arrow_left_btn_o {
+	margin-left: 45px;
+	margin-top: -10px;
+}
+.arrow_left_btn_o img {
+	height: 100%;
+	margin-top: 13px;
+	cursor: pointer;
+}
+.arrow_left_btn_o p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	color: #1B1A19;
+	margin-top: 15px;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.big_btn_o{
+	width: 100%;
+}
+.big_btn_o a {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	text-align: center;
+	color: #FEFEFF;
+	background: #8EC39B;
+	box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.4);
+	border-radius: 2px;
+	padding: 18px 35%;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.big_btn_o a:hover {
+	color: #000;
+}
+.small_btn_o a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 50px;
+	letter-spacing: 0.02em;
+	color: #FEFEFF;
+	background: #8EC39B;
+	border-radius: 2px;
+	padding: 18px 30px;
+	text-decoration: none;
+	transition: all .3s linear;
+}
+.small_btn_o a:hover{
+	color: #000;
+}
+/* -------------------- */
+.catering_breakfast_select span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #1B1A19;
+	margin-top: 64px;
+	margin-right: 5px;
+}
+/* ------------------ */
+
+.cdshow{
+	display: none;
+}
+.cdshowtwo{
+	display: none;
+}
+.cdshowtin{
+	display: none;
+}
+.cdshowcar{
+	display: none;
+}
+
+
+
+
+
+
+
+.food_order_link {
+	z-index: 99999999999999999999;
+}
+
+/* for css responsive  */
+.option_card_title {
+	text-align: start;
+}
+.option_header_select {
+	text-align: end;
+}
+
+
+
+/* calender css here  */
+
+  .giz-calendar button {
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    background-color: transparent;
+    padding: 0.6rem 0.8rem; }
+    .giz-calendar button > span {
+      line-height: 1.75;
+      letter-spacing: -0.08rem; }
+  .giz-calendar .giz-calendar-header {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    background-color: blue;
+    padding: 0.8rem 2.4rem; }
+    .giz-calendar .giz-calendar-header button {
+      color: #fff; }
+      .giz-calendar .giz-calendar-header button:hover {
+        background-color: #0000000d; }
+      .giz-calendar .giz-calendar-header button .giz-calendar-year-title {
+        font-size: 2.56rem; }
+      .giz-calendar .giz-calendar-header button .giz-calendar-title {
+        font-size: 3.3rem; }
+		.giz-calendar .giz-calendar-content {
+			background: #fff;
+			padding: 0.8rem 1rem;
+			width: 110%;
+		}
+    .giz-calendar .giz-calendar-content .active {
+      background-color: #8EC39B;
+      color: #fff; }
+    .giz-calendar .giz-calendar-content .hide {
+      display: none; }
+    .giz-calendar .giz-calendar-content button {
+      height: 3.5rem;
+      width: 3.5rem;
+      font-size: 1.4rem;
+      display: inline-block;
+      border-radius: 50%;
+      background: transparent; }
+      .giz-calendar .giz-calendar-content button:hover:not(.active) {
+        background: #0000000d; }
+		.giz-calendar .giz-calendar-content .giz-calendar-title-switch {
+			align-items: center;
+			margin: 0.8rem 0rem;
+			display: flex;
+			justify-content: space-between;
+		}
+      .giz-calendar .giz-calendar-content .giz-calendar-title-switch .giz-calendar-title-slide {
+        font-size: 1.6rem; }
+        .giz-calendar .giz-calendar-content .giz-calendar-title-switch .giz-calendar-title-slide:hover {
+          cursor: pointer;
+          font-weight: 600; }
+      .giz-calendar .giz-calendar-content .giz-calendar-title-switch button:hover {
+        background: #0000000d; }
+		.giz-calendar .giz-calendar-content .giz-calendar-weekday {
+			display: grid;
+			grid-template-columns: repeat(7, 1fr);
+			color: #0000008a;
+			place-items: center;
+			margin-bottom: 0.8rem;
+			font-size: 1.2rem;
+		}
+    .giz-calendar .giz-calendar-content .giz-calendar-day {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      align-items: center;
+      grid-template-rows: repeat(6, 1fr);
+      place-items: center; }
+      .giz-calendar .giz-calendar-content .giz-calendar-day .giz-calendar-day-count {
+        font-size: 1.2rem !important; }
+    .giz-calendar .giz-calendar-content .giz-calendar-month {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      place-items: center;
+      grid-row-gap: 0.8rem;
+      grid-template-rows: auto;
+      margin-bottom: 0.8rem; }
+      .giz-calendar .giz-calendar-content .giz-calendar-month .giz-calendar-month-count {
+        font-size: 1.6rem; }
+      .giz-calendar .giz-calendar-content .giz-calendar-month button {
+        width: auto;
+        border-radius: 4px;
+        padding: 0.3rem 2.5rem; }
+    .giz-calendar .giz-calendar-content .giz-calendar-action {
+      display: flex;
+      justify-content: flex-end; }
+      .giz-calendar .giz-calendar-content .giz-calendar-action button {
+        width: auto;
+        border-radius: 4px;
+        padding: 0.3rem 2.5rem;
+        color: blue; }
+        .giz-calendar .giz-calendar-content .giz-calendar-action button:hover {
+          background-color: blue;
+          color: #fff;
+}
+
+
+/* for calculater  */
+
+
+.days-of-the-week {
+	width: 50%;
+	float: left;
+  }
+
+  .days-of-the-week p {
+	color: rgba(0, 0, 0, 0.25);
+	transition: color .5s linear, padding .5s linear;
+  }
+
+  .days-of-the-week p.active-day {
+	padding-left: 10px;
+	color: #FFF;
+  }
+
+  .background-color-month,
+  .slide-animation {
+	min-height: 100%;
+  }
+
+  .background-color-month {
+	transition: background-color .5s linear;
+	padding: 0px 20px 20px;
+}
+
+  body {
+	font-family: sans-serif;
+	/* color: #FFF; */
+  }
+  .calendar {
+	width: 280px;
+	margin: 10px auto;
+	border: 1px solid #DDD;
+	box-sizing: border-box;
+	overflow: auto;
+	border-radius: 4px;
+}
+
+  .calendar-body {
+	padding: 10px;
+	overflow: auto;
+	background-color: #FFF;
+  }
+
+  .calendar p {
+	float: left;
+	width: 14%;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0;
+		-webkit-user-select: none; /* Safari, iOS, and Android */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+  }
+
+  .calendar p.day {
+	font-size: 12px;
+	color: #DDD;
+	padding: 5px 0;
+  }
+
+  .calendar p.date {
+	font-size: 13px;
+	color: #555;
+	font-weight: bold;
+	padding: 7px 0;
+	cursor: pointer;
+	margin-bottom: 4px;
+	border-radius: 50% 50%;
+  }
+
+  .calendar-head {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+		-webkit-user-select: none; /* Safari, iOS, and Android */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+  }
+
+  .calendar-head .arrow-left,
+  .calendar-head .arrow-right {
+	position: absolute;
+	cursor: pointer;
+	top: 12px;
+	width: 8px;
+	padding: 0 10px;
+  }
+
+  .calendar-head .arrow-left svg,
+  .calendar-head .arrow-right svg {
+	color: #FFF;
+	stroke: #FFF;
+	transition: color 0.5s, stroke 0.5s;
+  }
+
+  .calendar-head .arrow-left:hover svg,
+  .calendar-head .arrow-right:hover svg {
+	color: #A0D9D6;
+	stroke: #A0D9D6;
+  }
+
+  .calendar-head .arrow-left {
+	left: 0;
+	top: 8px;
+  }
+
+  .calendar-head .arrow-right {
+	right: 8px;
+	top: 8px;
+}
+
+  .calendar h3.month {
+	font-size: 16px;
+	margin: 0;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #FFF;
+	text-align: center;
+  }
+
+  .calendar p.date:hover {
+	background-color: #F0F0F0;
+  }
+
+  .calendar p.today,
+  .calendar p.today:hover {
+	color: #49bedb;
+  }
+
+  .calendar p.selected,
+  .calendar p.selected:hover {
+	color: #FFF;
+	background-color: #49bedb;
+  }
+
+  .calendar p.show,
+  .calendar p.show:hover {
+	background-color: transparent;
+	cursor: default;
+  }

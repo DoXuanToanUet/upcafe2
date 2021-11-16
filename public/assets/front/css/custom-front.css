@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "coco";
+  src: url(/fonts/cocosharp-regular-webfont.woff2?750240126e67d1635199345107750b51) format("woff2"), url(/fonts/cocosharp-regular-webfont.woff?3f09042b1eb00ba5a9fd2a27f68e115b) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nicky";
+  src: url(/fonts/nicky_laatz__-_ernest_and_emily-webfont.woff2?ef4fea425d184690b4907e10795b7883) format("woff2"), url(/fonts/nicky_laatz__-_ernest_and_emily-webfont.woff?ead6cdbad55737668e6fff875e935046) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "coco" !important;
+}
+
+#imprNoti {
+  font-size: 20px;
+}
+#imprNoti .notify {
+  text-align: right;
+}
+#imprNoti .notify .icon:last-child {
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  #imprNoti .notify {
+    text-align: center;
+  }
+  #imprNoti .notify .icon {
+    display: block;
+  }
+  #imprNoti .notify .icon:last-child {
+    margin-left: 0;
+  }
+}
+
+.index-page-menu nav.desktop {
+  background: transparent;
+}
+.index-page-menu nav.desktop .container-1 ul {
+  display: none;
+}
+.index-page-menu nav.desktop .container-1 .logo .logo-img {
+  bottom: -130px;
+}
+
+#header_area nav.desktop .container-1 ul a.active-nav {
+  border-bottom: 5px solid #8ec39b;
+}
+
+.banner_overlay_content h1 {
+  border-bottom: none;
+  background-color: rgba(153, 155, 158, 0.1);
+  margin-bottom: 10px;
+  font-family: "nicky";
+  font-size: 130px;
+  line-height: 150px;
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+  .banner_overlay_content {
+    font-size: 100px;
+    line-height: 120px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1499.99px) {
+  .banner_overlay_content {
+    padding-top: 150px;
+  }
+}
+@media (min-width: 1500px) {
+  .banner_overlay_content {
+    padding-top: 150px;
+  }
+}
+.banner_overlay_content .banner-contact {
+  color: #fff;
+  font-size: 16px;
+}
+.banner_overlay_content .banner-contact:last-child {
+  margin-left: 20px;
+}
+@media (min-width: 769px) {
+  .banner_overlay_content .banner-contact {
+    display: none;
+  }
+}
+
+.timing-banner.contect_part1 {
+  width: 25%;
+  position: absolute;
+  background-color: rgba(13, 13, 13, 0.8);
+  color: #fff;
+  text-align: center;
+  top: 60%;
+}
+.timing-banner.contect_part1 h2 {
+  padding: 10px;
+  font-size: 28px;
+  color: #fff;
+}
+.timing-banner.contect_part1 .contect_part11 p, .timing-banner.contect_part1 .contect_part12 p {
+  color: #fff;
+  font-size: 16px;
+}
+@media (min-width: 1400px) {
+  .timing-banner.contect_part1 {
+    width: 20%;
+    top: 55%;
+    left: 10%;
+  }
+}
+@media (max-width: 1000px) {
+  .timing-banner.contect_part1 {
+    display: none;
+  }
+}
+
+.promise_banner .our-promise-flex {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  margin: 0 auto;
+}
+.promise_banner .our-promise-flex .item img {
+  width: 100%;
+}
+.promise_banner .our-promise-flex .item .content {
+  top: 25%;
+}
+.promise_banner .our-promise-flex .item .content img {
+  width: 20%;
+  margin: 0 auto;
+}
+.promise_banner .our-promise-flex .item .content h3 {
+  font-size: 24px;
+  padding: 15px 0 5px 0;
+}
+.promise_banner .our-promise-flex .item .content p {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+@media (max-width: 767px) {
+  .promise_banner {
+    display: none;
+  }
+}
+
+#promise_area2 {
+  display: none;
+}
+@media (max-width: 767px) {
+  #promise_area2 {
+    display: block;
+  }
+}
+
+.cafe-page-order-button .order-now {
+  background-color: #fff;
+  border: 3px solid #8ec39b;
+  color: #8ec39b;
+  padding: 20px 25px;
+}
+.cafe-page-order-button .order-now:hover {
+  background-color: #8ec39b;
+  color: #fff;
+  border-color: #8ec39b;
+}
+.cafe-page-order-button .order-now:last-child {
+  margin-left: 20px;
+}
+.cafe-page-order-button .order-now i {
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .cafe-page-order-button .order-now {
+    display: block;
+  }
+  .cafe-page-order-button .order-now:last-child {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .cafe-page-order-button .order-now:first-child {
+    margin-bottom: 0px;
+  }
+}
+
+#serAndDeli_area {
+  padding-bottom: 0px;
+}
+#serAndDeli_area .ser_icons img {
+  padding-top: 0;
+}
+#serAndDeli_area .services {
+  padding: 50px;
+}
+#serAndDeli_area .services .img-icon {
+  height: 100px;
+}
+#serAndDeli_area .services .img-icon img {
+  max-height: 100px;
+}
+#serAndDeli_area .services .icon-content {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #serAndDeli_area .services {
+    padding: 50px 5px;
+  }
+  #serAndDeli_area .services .img-icon {
+    height: 80px;
+  }
+  #serAndDeli_area .services .img-icon img {
+    max-height: 80px;
+  }
+  #serAndDeli_area .services .icon-content {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #serAndDeli_area .services {
+    padding: 30px 5px;
+  }
+  #serAndDeli_area .services .img-icon {
+    height: 50px;
+  }
+  #serAndDeli_area .services .img-icon img {
+    max-height: 50px;
+  }
+  #serAndDeli_area .services .icon-content {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .model_img1 {
+    left: 0;
+  }
+}
+
+.catering-order-now {
+  color: #fff;
+  background-color: #8EC39B;
+  border-radius: 2px;
+  border: 1.5px solid #8EC39B;
+  padding: 20px;
+  margin: 50px auto;
+  text-decoration: none;
+  width: 20%;
+  display: block;
+}
+.catering-order-now:hover {
+  color: #fff;
+  background-color: #8EC39B;
+  border-color: #8EC39B;
+}
+@media (max-width: 1199px) {
+  .catering-order-now {
+    width: 40%;
+  }
+}
+
+#slide_gal_area .social {
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+#slide_gal_area .social a {
+  color: #8EC39B;
+}
+#slide_gal_area .social a i {
+  font-size: 60px;
+}
+#slide_gal_area .social a i:last-child {
+  margin-left: 20px;
+}
+#slide_gal_area .social a:hover {
+  color: #8EC39B;
+  text-decoration: none;
+}
+#slide_gal_area .slide_gel_title h2 {
+  padding-bottom: 20px;
+}
+
+#praise_area .review_silder .card .card-body {
+  font-size: 17px;
+}
+#praise_area .review_silder .card .card-flex .name {
+  font-weight: 900;
+}

@@ -1,0 +1,308 @@
+@extends('layouts.app')
+@section('title', 'Details')
+@section('styles')
+    <style>
+        html {
+            font-family: sans-serif;
+            font-size: 15px;
+            line-height: 1.4;
+            color: #444;
+        }
+
+        body {
+            margin: 0;
+            background: #504f4f;
+            font-size: 1em;
+        }
+
+        .wrapper {
+            /* margin: 15px auto; */
+            max-width: 1100px;
+            float: left;
+        }
+        @media screen and (max-width: 991px){
+            .wrapper {
+                /* margin: 15px auto; */
+                width: 100%;
+                /* float: left; */
+                text-align: center;
+                margin: auto;
+            }
+        }
+        .container-calendar {
+            background: #ffffff;
+            padding: 15px;
+            max-width: 357px;
+            margin: 0 auto;
+            overflow: auto;
+        }
+
+        .button-container-calendar button, .button-container-calendar a {
+            cursor: pointer;
+            display: inline-block;
+            zoom: 1;
+            background: #00a2b7;
+            color: #fff;
+            border: 1px solid #0aa2b5;
+
+            padding: 5px 10px;
+        }
+
+        .table-calendar {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+
+
+
+
+
+
+        /* sunday */
+        .date-picker:nth-child(1) {
+            color: red;
+        }
+
+
+
+
+
+
+
+
+        .footer-container-calendar select {
+            cursor: pointer;
+            display: inline-block;
+            zoom: 1;
+            background: #ffffff;
+            color: #585858;
+            border: 1px solid #bfc5c5;
+
+            padding: 5px 1em;
+        }
+
+
+        .footer-container-calendar label {
+            padding-left: 16px
+        }
+
+        @media screen and (max-width:767px) {
+            .be-left-sidebar .sidebar-elements{
+                margin-top: -9px !important;
+            }
+        }
+
+        .main-page .button-section .show {
+            background-color: black;
+            padding: 9px 25px;
+            color: black;
+            color: white;
+            font-size: 17px;
+        }
+        /*
+        @media screen and (max-width: 810px){
+            .main-page .button-section{
+            background-color: black;
+            padding: 9px 25px;
+            color: black;
+            color: white;
+            font-size: 17px;
+        }
+        } */
+
+        @media screen and (max-width:1222px) {
+            .main-page .button-section span::before{
+                content: " ";
+                width: 12px;
+                height: 3px;
+                margin-left: 104px !important;
+                background-color: white;
+                display: block;
+                display: none;
+                transform: translateY(-14px);
+            }
+
+        }
+        @media screen and (max-width: 1118px){
+            .main-page .button-section .show {
+                background-color: black;
+                padding: 9px 13px;
+                color: black;
+                color: white;
+                font-size: 17px;
+            }
+        }
+        @media screen and (max-width: 1054px){
+            .main-page .button-section .show {
+                background-color: black;
+                padding: 6px 7px;
+                color: black;
+                color: white;
+                font-size: 17px;
+            }
+        }
+        @media screen and (max-width: 1040px){
+            .main-page .button-section .show {
+                background-color: black;
+                padding: 6px 7px;
+                color: black;
+                color: white;
+                font-size: 17px;
+                display: none;
+            }
+        }
+        .main-page .button-section span::before {
+
+            background-color: black;
+
+        }
+        .be-left-sidebar:before {
+            content: "";
+            position: fixed;
+            z-index: -1;
+            width: inherit;
+            top: 0;
+            width: 247px;
+            left: 0;
+            bottom: 0;
+            background-color: inherit;
+            border-right: none;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+@endsection
+@section('content')
+    <?php
+        $is_active = 'details';
+    ?>
+
+    <div class="be-wrapper be-fixed-sidebar " style="background-color: white" >
+        @include('layouts.checkout-heading')
+
+        <div class="be-left-sidebar">
+            <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Dashboard</a>
+                <div class="left-sidebar-spacer">
+                    <div class="left-sidebar-scroll">
+
+                    </div>
+                </div>
+                <div class="progress-widget">
+                    <div class="back-section">
+                       <a href="{{ url('/review') }}"><i class="fa fa-angle-left" style="margin-left: 27px; color: black;"></i> &nbsp;&nbsp; <span class="" style="font-size: 17px; color: black;">BACK</span></a>
+                    </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="be-content">
+            <div class="main-content">
+                <div class="delivery-section">
+                    <div class="container">
+                        <!-- <form action=""> -->
+                        <form id="details" class="row" style="margin-top: 50px;">
+                            @csrf
+                            <input type="hidden" value="1" name="type">
+                            <input type="hidden" name="date" class="selected-date">
+                            <div class="col-lg-4 col-12 review-table">
+                                <div class="full p-4 pb-4 full min-height">
+                                    <h4 class="text-center pb-3" style="margin-top: 66px;">We just need a few more details.</h4>
+                                    <div class="input m-auto text-center">
+                                        <input type="text" class="form-control mx-auto" placeholder="Name" name="name" required>
+                                    </div>
+                                    <div class="input m-auto py-2 text-center">
+                                        <input type="text" class="form-control mx-auto" placeholder="Mobile Number" name="number" required>
+                                    </div>
+                                    <div class="input m-auto text-center" style="padding-bottom: 82px;">
+                                        <input type="text" class="form-control mx-auto" placeholder="Email" name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-12 all-ok review-table">
+                                <div class="row full min-height">
+                                    <div class="col-md-6 p-0">
+                                        <div class="container-calendar p-0 m-0">
+                                            <div class="button">
+                                                <a class="btn btn-primary delivery-button bg-light-gray" href="{{ url('/detail-delivery') }}" role="button">DELIVERY</a>
+                                                <a class="btn btn-primary pickup-button bg-full-black" href="javascript:void(0)" role="button">PICKUP</a>
+
+
+                                            </div>
+
+                                            <div class="calender-body-start">
+                                            <h3 class="month-year" id="monthAndYear"></h3>
+                                            <div class="calendar-arrow">
+                                                <a href="javascript:void(0);" id="previous" onclick="previous();"><i class="fas fa-chevron-left"></i></a>
+                                                <a href="javascript:void(0);" id="next" onclick="next();"><i class="fas fa-chevron-right"></i></a>
+                                            </div>
+
+                                            <div class="button-container-calendar">
+
+                                                <div class="footer-container-calendar">
+
+
+                                                    <select id="month" onchange="jump()">
+                                                        <option value=0>Jan</option>
+                                                        <option value=1>Feb</option>
+                                                        <option value=2>Mar</option>
+                                                        <option value=3>Apr</option>
+                                                        <option value=4>May</option>
+                                                        <option value=5>Jun</option>
+                                                        <option value=6>Jul</option>
+                                                        <option value=7>Aug</option>
+                                                        <option value=8>Sep</option>
+                                                        <option value=9>Oct</option>
+                                                        <option value=10>Nov</option>
+                                                        <option value=11>Dec</option>
+                                                    </select>
+                                                    <select id="year" onchange="jump()"></select>
+
+                                                </div>
+                                            </div>
+                                            <table class="table-calendar" id="calendar" data-lang="en">
+                                                <thead id="thead-month"></thead>
+                                                <tbody id="calendar-body"></tbody>
+                                            </table>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="stranges p-3">
+                                            <h5 class="mt-5 mb-3 ml-2">Expected pickup time </h5>
+                                            <div class="container">
+                                                <div class="timesect mt-2">
+                                                    <span class="ml-2"><input type="time" name="time" class="form-control" required></span>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <h5 class="mt-5" >PICKUP FROM</h5>
+                                                <div class="caridt">
+                                                    <p class="" style="margin-top: 20px; padding-bottom: 15px;">{{$site->address}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-section mt-3">
+                                    <button type="submit" class="btn btn-success view-my-selection-button float-right"> PLACE ORDER</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<?php
+    $detailPage = true;
+?>
+@endsection
+
+@section('scripts')
+@endsection
