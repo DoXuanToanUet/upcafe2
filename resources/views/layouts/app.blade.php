@@ -51,6 +51,7 @@
     <link href="/assets/front/css/custom.css" rel="stylesheet">
     <link href="/assets/front/css/footer.css" rel="stylesheet">
     <link href="/assets/front/css/custom-front.css" rel="stylesheet">
+    <link href="/assets/front/css/custom-order.css" rel="stylesheet">
     @yield('styles')
 </head>
 
