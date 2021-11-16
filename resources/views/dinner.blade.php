@@ -11,7 +11,7 @@
         
         <form id="menu">
             @csrf
-            <div class="be-content" id="main-option">
+            <div class="be-content dinner-page" id="main-option">
                 <div class="main-content">
                     <div class="dinner-cafe-section py-4">
                         <div class="container-fluid buffet-main-options">
